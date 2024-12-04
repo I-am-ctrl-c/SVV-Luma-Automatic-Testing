@@ -33,26 +33,19 @@ driver = webdriver.Chrome(service=Service('chromedriver.exe'), options=opt)
 driver.implicitly_wait(10)
 driver.get('https://magento.softwaretestingboard.com/')
 
-
 def login():
     # log in
     _SignIn = xFind('/html/body/div[2]/header/div[1]/div/ul/li[2]/a')
-    print(1)
     _SignIn.click()
-    print(2)
     _Email = xFind('/html/body/div[2]/main/div[3]/div/div[2]/div[1]/div[2]/form/fieldset/div[2]/div/input')
-    print(3)
     _Password = xFind('/html/body/div[2]/main/div[3]/div/div[2]/div[1]/div[2]/form/fieldset/div[3]/div/input')
-    print(4)
     _Email.send_keys('zhang.23519@gmail.com')
-    print(5)
     _Password.send_keys('123456zzZZ')
-    print(6)
     _SignIn = xFind('//*[@id="send2"]/span')
-    print(7)
     _SignIn.click()
     print('login is done')
 
+login()
 
 # select area of products
 # size and color
@@ -102,7 +95,6 @@ for j in range(times):
 
         span_element = driver.find_element(By.XPATH, '//span[normalize-space(text())="Add to Cart"]')
         driver.execute_script("arguments[0].click();", span_element)
-
 
         driver.back()
     all_items.append(items)
