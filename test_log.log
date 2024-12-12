@@ -147,3 +147,184 @@
 2024-12-13 01:41:26,584 - Adding 2 products.
 2024-12-13 01:41:31,574 - Adding 3 products.
 2024-12-13 01:41:32,938 - Added product: Cora Parachute Pant, Size: 28, Color: Blue, Quantity: 77, Price: 60.0
+2024-12-13 02:15:49,022 - Round 1: Using seed 1734027349
+2024-12-13 02:15:49,023 - Adding products 2 times.
+2024-12-13 02:15:49,656 - Adding 3 products.
+2024-12-13 02:15:50,952 - Added product: Ingrid Running Jacket, Size: XS, Color: Orange, Quantity: 54, Price: 84.0
+2024-12-13 02:15:53,010 - Added product: Olivia 1/4 Zip Light Jacket, Size: XL, Color: Black, Quantity: 50, Price: 77.0
+2024-12-13 02:15:55,039 - Added product: Stellar Solar Jacket, Size: S, Color: Yellow, Quantity: 92, Price: 75.0
+2024-12-13 02:15:57,146 - Adding 1 products.
+2024-12-13 02:15:57,905 - Added product: Montana Wind Jacket, Size: XS, Color: Green, Quantity: 62, Price: 49.0
+2024-12-13 02:16:01,897 - Shopping cart content: [{'name': 'Ingrid Running Jacket', 'src': 'wj04-white_main_1.jpg', 'color': 'Orange', 'size': 'XS', 'qty': 54}, {'name': 'Olivia 1/4 Zip Light Jacket', 'src': 'wj12-blue_main_1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 50}, {'name': 'Stellar Solar Jacket', 'src': 'wj01-red_main_1.jpg', 'color': 'Yellow', 'size': 'S', 'qty': 92}, {'name': 'Montana Wind Jacket', 'src': 'mj03-black_main_1.jpg', 'color': 'Green', 'size': 'XS', 'qty': 62}]
+2024-12-13 02:16:01,897 - Round 1 success, total covered 2 boundary value
+2024-12-13 02:16:02,746 - Round 2: Using seed 1734027362
+2024-12-13 02:16:02,746 - Adding products 3 times.
+2024-12-13 02:16:03,539 - Adding 1 products.
+2024-12-13 02:16:04,398 - Added product: Balboa Persistence Tee, Size: XS, Color: Gray, Quantity: 72, Price: 29.0
+2024-12-13 02:16:06,338 - Adding 1 products.
+2024-12-13 02:16:07,735 - Added product: Erikssen CoolTech\u2122 Fitness Tank, Size: L, Color: Orange, Quantity: 65, Price: 29.0
+2024-12-13 02:16:10,449 - Adding 3 products.
+2024-12-13 02:16:11,409 - Added product: Balboa Persistence Tee, Size: L, Color: Green, Quantity: 15, Price: 29.0
+2024-12-13 02:16:13,840 - Added product: Gobi HeatTec\xae Tee, Size: XS, Color: Red, Quantity: 28, Price: 29.0
+2024-12-13 02:16:17,025 - Added product: Helios EverCool\u2122 Tee, Size: XL, Color: Black, Quantity: 84, Price: 24.0
+2024-12-13 02:16:21,643 - Shopping cart content: [{'name': 'Balboa Persistence Tee', 'src': 'ms03-black_main_1.jpg', 'color': 'Gray', 'size': 'XS', 'qty': 72}, {'name': 'Erikssen CoolTech\u2122 Fitness Tank', 'src': 'mt01-red_main_1.jpg', 'color': 'Orange', 'size': 'L', 'qty': 65}, {'name': 'Balboa Persistence Tee', 'src': 'ms03-black_main_1.jpg', 'color': 'Green', 'size': 'L', 'qty': 15}, {'name': 'Gobi HeatTec\xae Tee', 'src': 'ms04-orange_main_1.jpg', 'color': 'Red', 'size': 'XS', 'qty': 28}, {'name': 'Helios EverCool\u2122 Tee', 'src': 'ms05-blue_main_1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 84}]
+2024-12-13 02:16:21,644 - Round 2 success, total covered 5 boundary value
+2024-12-13 02:16:22,509 - Round 3: Using seed 1734027382
+2024-12-13 02:16:22,509 - Adding products 1 times.
+2024-12-13 02:16:23,265 - Adding 2 products.
+2024-12-13 02:16:24,224 - Added product: Elisa EverCool\u2122 Tee, Size: XL, Color: Gray, Quantity: 62, Price: 29.0
+2024-12-13 02:16:26,366 - Added product: Juliana Short-Sleeve Tee, Size: XS, Color: Black, Quantity: 66, Price: 42.0
+2024-12-13 02:16:29,908 - Shopping cart content: [{'name': 'Elisa EverCool\u2122 Tee', 'src': 'ws06-purple_main_2.jpg', 'color': 'Gray', 'size': 'XL', 'qty': 62}, {'name': 'Juliana Short-Sleeve Tee', 'src': 'ws07-black_main_1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 66}]
+2024-12-13 02:16:29,908 - Round 3 success, total covered 7 boundary value
+2024-12-13 02:16:30,816 - Round 4: Using seed 1734027390
+2024-12-13 02:16:30,816 - Adding products 3 times.
+2024-12-13 02:16:31,619 - Adding 3 products.
+2024-12-13 02:16:32,722 - Added product: Phoebe Zipper Sweatshirt, Size: M, Color: Gray, Quantity: 79, Price: 59.0
+2024-12-13 02:16:34,950 - Added product: Hera Pullover Hoodie, Size: XS, Color: Green, Quantity: 78, Price: 48.0
+2024-12-13 02:16:37,122 - Added product: Ariel Roll Sleeve Sweatshirt, Size: L, Color: Red, Quantity: 53, Price: 39.0
+2024-12-13 02:16:39,530 - Adding 2 products.
+2024-12-13 02:16:40,473 - Added product: Primo Endurance Tank, Size: S, Color: Yellow, Quantity: 90, Price: 29.0
+2024-12-13 02:16:43,060 - Added product: Vulcan Weightlifting Tank, Size: XS, Color: Black, Quantity: 84, Price: 28.0
+2024-12-13 02:16:45,466 - Adding 3 products.
+2024-12-13 02:16:46,240 - Added product: Hera Pullover Hoodie, Size: XL, Color: Orange, Quantity: 27, Price: 48.0
+2024-12-13 02:16:48,954 - Added product: Antonia Racer Tank, Size: L, Color: Black, Quantity: 53, Price: 34.0
+2024-12-13 02:16:50,623 - Added product: Nora Practice Tank, Size: S, Color: Orange, Quantity: 52, Price: 39.0
+2024-12-13 02:16:55,389 - Shopping cart content: [{'name': 'Phoebe Zipper Sweatshirt', 'src': 'wh07-gray_main_1.jpg', 'color': 'Gray', 'size': 'M', 'qty': 79}, {'name': 'Hera Pullover Hoodie', 'src': 'wh02-blue_main_2.jpg', 'color': 'Green', 'size': 'XS', 'qty': 78}, {'name': 'Ariel Roll Sleeve Sweatshirt', 'src': 'wh09-purple_main_1.jpg', 'color': 'Red', 'size': 'L', 'qty': 53}, {'name': 'Primo Endurance Tank', 'src': 'mt03-red_main_1.jpg', 'color': 'Yellow', 'size': 'S', 'qty': 90}, {'name': 'Hera Pullover Hoodie', 'src': 'wh02-blue_main_2.jpg', 'color': 'Orange', 'size': 'XL', 'qty': 27}, {'name': 'Antonia Racer Tank', 'src': 'wt08-black_main_1.jpg', 'color': 'Black', 'size': 'L', 'qty': 53}, {'name': 'Nora Practice Tank', 'src': 'wt03-red_main_1.jpg', 'color': 'Orange', 'size': 'S', 'qty': 52}]
+2024-12-13 02:16:55,390 - Round 4 error
+2024-12-13 02:16:56,447 - Round 5: Using seed 1734027416
+2024-12-13 02:16:56,447 - Adding products 1 times.
+2024-12-13 02:16:57,216 - Adding 2 products.
+2024-12-13 02:16:58,142 - Added product: Oslo Trek Hoodie, Size: XL, Color: Brown, Quantity: 76, Price: 42.0
+2024-12-13 02:17:01,397 - Added product: Teton Pullover Hoodie, Size: L, Color: Black, Quantity: 10, Price: 70.0
+2024-12-13 02:17:05,081 - Shopping cart content: [{'name': 'Oslo Trek Hoodie', 'src': 'mh08-brown_main_1.jpg', 'color': 'Brown', 'size': 'XL', 'qty': 76}, {'name': 'Teton Pullover Hoodie', 'src': 'mh02-black_main_1.jpg', 'color': 'Black', 'size': 'L', 'qty': 10}]
+2024-12-13 02:17:05,081 - Round 5 success, total covered 11 boundary value
+2024-12-13 02:23:44,133 - Round 1: Using seed 1734027824
+2024-12-13 02:23:44,135 - Adding products 1 times.
+2024-12-13 02:23:45,049 - Adding 3 products.
+2024-12-13 02:23:47,057 - Added product: Ingrid Running Jacket, Size: S, Color: White, Quantity: 72, Price: 84.0
+2024-12-13 02:25:29,401 - Round 1: Using seed 1734027929
+2024-12-13 02:25:29,403 - Adding products 3 times.
+2024-12-13 02:25:30,608 - Adding 2 products.
+2024-12-13 02:25:32,755 - Added product: Hero Hoodie, Size: M, Color: Gray, Quantity: 100, Price: 54.0
+2024-12-13 02:25:36,991 - Added product: Mach Street Sweatshirt, Size: L, Color: Red, Quantity: 48, Price: 62.0
+2024-12-13 02:25:39,943 - Adding 1 products.
+2024-12-13 02:25:41,355 - Added product: Ryker LumaTech\u2122 Tee (V-neck), Size: XS, Color: Black, Quantity: 53, Price: 28.0
+2024-12-13 02:25:43,921 - Adding 3 products.
+2024-12-13 02:25:44,854 - Added product: Hero Hoodie, Size: XS, Color: Black, Quantity: 73, Price: 54.0
+2024-12-13 02:25:48,141 - Added product: Hollister Backyard Sweatshirt, Size: L, Color: White, Quantity: 95, Price: 52.0
+2024-12-13 02:25:51,201 - Added product: Ryker LumaTech\u2122 Tee (V-neck), Size: XS, Color: Black, Quantity: 31, Price: 28.0
+2024-12-13 02:25:55,826 - Shopping cart content: [{'name': 'Hero Hoodie', 'src': 'mh07-gray_main_2.jpg', 'color': 'Gray', 'size': 'M', 'qty': 100}, {'name': 'Mach Street Sweatshirt', 'src': 'mh10-blue_main_1.jpg', 'color': 'Red', 'size': 'L', 'qty': 48}, {'name': 'Ryker LumaTech\u2122 Tee (V-neck)', 'src': 'ms02-gray_main_1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 84}, {'name': 'Hollister Backyard Sweatshirt', 'src': 'mh05-white_main_1.jpg', 'color': 'White', 'size': 'L', 'qty': 95}]
+2024-12-13 02:25:55,826 - Round 1 error
+2024-12-13 02:25:56,768 - Round 2: Using seed 1734027956
+2024-12-13 02:25:56,768 - Adding products 1 times.
+2024-12-13 02:25:57,554 - Adding 1 products.
+2024-12-13 02:25:59,165 - Added product: Stellar Solar Jacket, Size: S, Color: Red, Quantity: 44, Price: 75.0
+2024-12-13 02:26:03,210 - Shopping cart content: [{'name': 'Stellar Solar Jacket', 'src': 'wj01-red_main_1.jpg', 'color': 'Red', 'size': 'S', 'qty': 44}]
+2024-12-13 02:26:03,210 - Round 2 success, total covered 0 boundary value
+2024-12-13 02:26:04,120 - Round 3: Using seed 1734027964
+2024-12-13 02:26:04,121 - Adding products 1 times.
+2024-12-13 02:26:04,880 - Adding 3 products.
+2024-12-13 02:26:05,838 - Added product: Mach Street Sweatshirt, Size: XL, Color: Red, Quantity: 15, Price: 62.0
+2024-12-13 02:26:09,578 - Added product: Stark Fundamental Hoodie, Size: XL, Color: Blue, Quantity: 53, Price: 42.0
+2024-12-13 02:26:12,285 - Added product: Stark Fundamental Hoodie, Size: S, Color: Black, Quantity: 59, Price: 42.0
+2024-12-13 02:26:16,459 - Shopping cart content: [{'name': 'Mach Street Sweatshirt', 'src': 'mh10-blue_main_1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 15}, {'name': 'Stark Fundamental Hoodie', 'src': 'mh06-blue_main_1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 53}, {'name': 'Stark Fundamental Hoodie', 'src': 'mh06-blue_main_1.jpg', 'color': 'Black', 'size': 'S', 'qty': 59}]
+2024-12-13 02:26:16,459 - Round 3 success, total covered 0 boundary value
+2024-12-13 02:26:17,305 - Round 4: Using seed 1734027977
+2024-12-13 02:26:17,305 - Adding products 2 times.
+2024-12-13 02:26:18,089 - Adding 1 products.
+2024-12-13 02:26:19,697 - Added product: Nadia Elements Shell, Size: M, Color: Orange, Quantity: 70, Price: 69.0
+2024-12-13 02:26:22,561 - Adding 2 products.
+2024-12-13 02:26:24,274 - Added product: Karissa V-Neck Tee, Size: XL, Color: Green, Quantity: 25, Price: 32.0
+2024-12-13 02:26:27,951 - Added product: Tiffany Fitness Tee, Size: L, Color: Blue, Quantity: 59, Price: 28.0
+2024-12-13 02:26:32,351 - Shopping cart content: [{'name': 'Nadia Elements Shell', 'src': 'wj10-yellow_main_2.jpg', 'color': 'Orange', 'size': 'M', 'qty': 70}, {'name': 'Karissa V-Neck Tee', 'src': 'ws10-red_main_1.jpg', 'color': 'Green', 'size': 'XL', 'qty': 25}, {'name': 'Tiffany Fitness Tee', 'src': 'ws09-blue_main_1.jpg', 'color': 'Blue', 'size': 'L', 'qty': 59}]
+2024-12-13 02:26:32,351 - Round 4 success, total covered 1 boundary value
+2024-12-13 02:26:33,268 - Round 5: Using seed 1734027993
+2024-12-13 02:26:33,268 - Adding products 1 times.
+2024-12-13 02:26:34,047 - Adding 3 products.
+2024-12-13 02:26:35,753 - Added product: Helios Endurance Tank, Size: XL, Color: Blue, Quantity: 47, Price: 32.0
+2024-12-13 02:26:38,509 - Added product: Tristan Endurance Tank, Size: L, Color: Gray, Quantity: 51, Price: 29.0
+2024-12-13 02:26:41,673 - Added product: Primo Endurance Tank, Size: XL, Color: Yellow, Quantity: 21, Price: 29.0
+2024-12-13 02:26:46,113 - Shopping cart content: [{'name': 'Helios Endurance Tank', 'src': 'mt04-blue_main_1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 47}, {'name': 'Tristan Endurance Tank', 'src': 'mt02-white_main_2.jpg', 'color': 'Gray', 'size': 'L', 'qty': 51}, {'name': 'Primo Endurance Tank', 'src': 'mt03-red_main_1.jpg', 'color': 'Yellow', 'size': 'XL', 'qty': 21}]
+2024-12-13 02:26:46,113 - Round 5 success, total covered 3 boundary value
+2024-12-13 02:28:30,991 - Round 1: Using seed 1734028110
+2024-12-13 02:28:30,993 - Adding products 1 times.
+2024-12-13 02:28:31,605 - Adding 2 products.
+2024-12-13 02:28:33,424 - Added product: Maya Tunic, Size: XS, Color: White, Quantity: 33, Price: 29.0
+2024-12-13 02:28:36,498 - Added product: Chloe Compete Tank, Size: L, Color: Yellow, Quantity: 100, Price: 39.0
+2024-12-13 02:28:40,239 - Shopping cart content: [{'name': 'Maya Tunic', 'src': 'wt07-green_main_1.jpg', 'color': 'White', 'size': 'XS', 'qty': 33}, {'name': 'Chloe Compete Tank', 'src': 'wt06-blue_main_1.jpg', 'color': 'Yellow', 'size': 'L', 'qty': 100}]
+2024-12-13 02:28:40,239 - Round 1 success, total covered 1 boundary value
+2024-12-13 02:28:58,655 - Round 1: Using seed 1734028138
+2024-12-13 02:28:58,657 - Adding products 3 times.
+2024-12-13 02:28:59,519 - Adding 2 products.
+2024-12-13 02:29:00,581 - Added product: Stellar Solar Jacket, Size: M, Color: Red, Quantity: 27, Price: 75.0
+2024-12-13 02:29:03,318 - Added product: Juno Jacket, Size: M, Color: Green, Quantity: 93, Price: 77.0
+2024-12-13 02:29:05,592 - Adding 3 products.
+2024-12-13 02:29:06,675 - Added product: Stellar Solar Jacket, Size: M, Color: Yellow, Quantity: 97, Price: 75.0
+2024-12-13 02:29:09,875 - Added product: Adrienne Trek Jacket, Size: L, Color: Purple, Quantity: 91, Price: 57.0
+2024-12-13 02:29:12,632 - Added product: Jade Yoga Jacket, Size: S, Color: Green, Quantity: 48, Price: 32.0
+2024-12-13 02:29:14,987 - Adding 1 products.
+2024-12-13 02:29:16,630 - Added product: Prima Compete Bra Top, Size: XS, Color: Blue, Quantity: 54, Price: 24.0
+2024-12-13 02:29:21,214 - Shopping cart content: [{'name': 'Stellar Solar Jacket', 'src': 'wj01-red_main_1.jpg', 'color': 'Red', 'size': 'M', 'qty': 27}, {'name': 'Juno Jacket', 'src': 'wj06-purple_main_1.jpg', 'color': 'Green', 'size': 'M', 'qty': 93}, {'name': 'Stellar Solar Jacket', 'src': 'wj01-red_main_1.jpg', 'color': 'Yellow', 'size': 'M', 'qty': 97}, {'name': 'Adrienne Trek Jacket', 'src': 'wj08-gray_main_1.jpg', 'color': 'Purple', 'size': 'L', 'qty': 91}, {'name': 'Jade Yoga Jacket', 'src': 'wj09-green_main_1.jpg', 'color': 'Green', 'size': 'S', 'qty': 48}, {'name': 'Prima Compete Bra Top', 'src': 'wb04-blue_main_2.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 54}]
+2024-12-13 02:29:21,215 - Round 1 success, total covered 2 boundary value
+2024-12-13 02:34:14,765 - Round 1: Using seed 1734028454
+2024-12-13 02:34:14,766 - Adding products 2 times.
+2024-12-13 02:34:16,500 - Adding 1 products.
+2024-12-13 02:34:19,395 - Added product: Taurus Elements Shell, Size: L, Color: White, Quantity: 6, Price: 65.0
+2024-12-13 02:34:21,537 - Adding 3 products.
+2024-12-13 02:34:23,595 - Added product: Chloe Compete Tank, Size: M, Color: Red, Quantity: 100, Price: 39.0
+2024-12-13 02:34:25,079 - Added product: Breathe-Easy Tank, Size: L, Color: Yellow, Quantity: 68, Price: 34.0
+2024-12-13 02:34:27,524 - Added product: Chloe Compete Tank, Size: XS, Color: Red, Quantity: 68, Price: 39.0
+2024-12-13 02:34:32,337 - Shopping cart content: [{'name': 'Taurus Elements Shell', 'src': 'mj09-yellow_main_2.jpg', 'color': 'White', 'size': 'L', 'qty': 6}, {'name': 'Chloe Compete Tank', 'src': 'wt06-blue_main_1.jpg', 'color': 'Red', 'size': 'M', 'qty': 100}, {'name': 'Breathe-Easy Tank', 'src': 'wt09-white_main_1.jpg', 'color': 'Yellow', 'size': 'L', 'qty': 68}, {'name': 'Chloe Compete Tank', 'src': 'wt06-blue_main_1.jpg', 'color': 'Red', 'size': 'XS', 'qty': 68}]
+2024-12-13 02:34:32,337 - Round 1 success, total covered 3 boundary value
+2024-12-13 02:34:52,658 - Round 1: Using seed 1734028492
+2024-12-13 02:34:52,660 - Adding products 3 times.
+2024-12-13 02:34:53,688 - Adding 3 products.
+2024-12-13 02:34:56,457 - Added product: Hyperion Elements Jacket, Size: L, Color: Orange, Quantity: 27, Price: 51.0
+2024-12-13 02:35:00,340 - Added product: Typhon Performance Fleece-lined Jacket, Size: L, Color: Green, Quantity: 55, Price: 60.0
+2024-12-13 02:35:03,243 - Added product: Beaumont Summit Kit, Size: L, Color: Red, Quantity: 13, Price: 42.0
+2024-12-13 02:35:06,048 - Adding 3 products.
+2024-12-13 02:35:08,424 - Added product: Nora Practice Tank, Size: M, Color: Orange, Quantity: 26, Price: 39.0
+2024-12-13 02:35:11,393 - Added product: Breathe-Easy Tank, Size: XL, Color: Purple, Quantity: 1, Price: 34.0
+2024-12-13 02:35:15,418 - Added product: Prima Compete Bra Top, Size: M, Color: Yellow, Quantity: 47, Price: 24.0
+2024-12-13 02:35:18,225 - Adding 2 products.
+2024-12-13 02:35:19,639 - Added product: Gobi HeatTec\xae Tee, Size: S, Color: Black, Quantity: 33, Price: 29.0
+2024-12-13 02:35:22,826 - Added product: Atomic Endurance Running Tee (V-neck), Size: XS, Color: Blue, Quantity: 1, Price: 28.0
+2024-12-13 02:35:28,158 - Shopping cart content: [{'name': 'Hyperion Elements Jacket', 'src': 'mj02-green_main_1.jpg', 'color': 'Orange', 'size': 'L', 'qty': 27}, {'name': 'Typhon Performance Fleece-lined Jacket', 'src': 'mj11-black_main_1.jpg', 'color': 'Green', 'size': 'L', 'qty': 55}, {'name': 'Beaumont Summit Kit', 'src': 'mj01-yellow_main_1.jpg', 'color': 'Red', 'size': 'L', 'qty': 13}, {'name': 'Nora Practice Tank', 'src': 'wt03-red_main_1.jpg', 'color': 'Orange', 'size': 'M', 'qty': 26}, {'name': 'Breathe-Easy Tank', 'src': 'wt09-white_main_1.jpg', 'color': 'Purple', 'size': 'XL', 'qty': 1}, {'name': 'Prima Compete Bra Top', 'src': 'wb04-blue_main_2.jpg', 'color': 'Yellow', 'size': 'M', 'qty': 47}, {'name': 'Gobi HeatTec\xae Tee', 'src': 'ms04-orange_main_1.jpg', 'color': 'Black', 'size': 'S', 'qty': 33}, {'name': 'Atomic Endurance Running Tee (V-neck)', 'src': 'ms11-green_main_1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 1}]
+2024-12-13 02:35:28,158 - Round 1 success, total covered 3 boundary value
+2024-12-13 02:35:29,186 - Round 2: Using seed 1734028529
+2024-12-13 02:35:29,186 - Adding products 1 times.
+2024-12-13 02:35:29,943 - Adding 2 products.
+2024-12-13 02:35:32,625 - Added product: Inez Full Zip Jacket, Size: S, Color: Red, Quantity: 92, Price: 59.0
+2024-12-13 02:35:36,971 - Added product: Neve Studio Dance Jacket, Size: XL, Color: Blue, Quantity: 36, Price: 69.0
+2024-12-13 02:35:40,388 - Shopping cart content: [{'name': 'Inez Full Zip Jacket', 'src': 'wj07-purple_main_1.jpg', 'color': 'Red', 'size': 'S', 'qty': 92}, {'name': 'Neve Studio Dance Jacket', 'src': 'wj11-blue_main_1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 36}]
+2024-12-13 02:35:40,388 - Round 2 success, total covered 4 boundary value
+2024-12-13 02:35:41,269 - Round 3: Using seed 1734028541
+2024-12-13 02:35:41,269 - Adding products 1 times.
+2024-12-13 02:35:42,017 - Adding 2 products.
+2024-12-13 02:35:44,561 - Added product: Orion Two-Tone Fitted Jacket, Size: XS, Color: Red, Quantity: 32, Price: 72.0
+2024-12-13 02:35:48,710 - Added product: Jupiter All-Weather Trainer, Size: S, Color: Purple, Quantity: 29, Price: 56.99
+2024-12-13 02:35:51,214 - Shopping cart content: [{'name': 'Orion Two-Tone Fitted Jacket', 'src': 'mj07-red_main_1.jpg', 'color': 'Red', 'size': 'XS', 'qty': 32}, {'name': 'Jupiter All-Weather Trainer', 'src': 'mj06-blue_main_1.jpg', 'color': 'Purple', 'size': 'S', 'qty': 29}]
+2024-12-13 02:35:51,214 - Round 3 success, total covered 6 boundary value
+2024-12-13 02:35:52,228 - Round 4: Using seed 1734028552
+2024-12-13 02:35:52,228 - Adding products 3 times.
+2024-12-13 02:35:52,985 - Adding 2 products.
+2024-12-13 02:35:53,996 - Added product: Neve Studio Dance Jacket, Size: XS, Color: Blue, Quantity: 45, Price: 69.0
+2024-12-13 02:35:57,505 - Added product: Augusta Pullover Jacket, Size: L, Color: Orange, Quantity: 86, Price: 57.0
+2024-12-13 02:36:00,829 - Adding 1 products.
+2024-12-13 02:36:03,345 - Added product: Hero Hoodie, Size: XS, Color: Black, Quantity: 89, Price: 54.0
+2024-12-13 02:36:06,052 - Adding 2 products.
+2024-12-13 02:36:07,061 - Added product: Neve Studio Dance Jacket, Size: M, Color: Orange, Quantity: 11, Price: 69.0
+2024-12-13 02:36:09,435 - Added product: Neve Studio Dance Jacket, Size: XL, Color: Black, Quantity: 12, Price: 69.0
+2024-12-13 02:36:13,278 - Shopping cart content: [{'name': 'Neve Studio Dance Jacket', 'src': 'wj11-blue_main_1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 45}, {'name': 'Augusta Pullover Jacket', 'src': 'wj03-red_main_2.jpg', 'color': 'Orange', 'size': 'L', 'qty': 86}, {'name': 'Neve Studio Dance Jacket', 'src': 'wj11-blue_main_1.jpg', 'color': 'Orange', 'size': 'M', 'qty': 11}, {'name': 'Neve Studio Dance Jacket', 'src': 'wj11-blue_main_1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 12}]
+2024-12-13 02:36:13,278 - Recorded item: ('Hero Hoodie', 'mh07-gray_back_2.jpg', 'XS', 'Black', 89, 54.0) not found in cart properly.
+2024-12-13 02:36:13,278 - Round 4 error
+2024-12-13 02:36:14,135 - Round 5: Using seed 1734028574
+2024-12-13 02:36:14,135 - Adding products 2 times.
+2024-12-13 02:36:14,878 - Adding 2 products.
+2024-12-13 02:36:16,546 - Added product: Radiant Tee, Size: S, Color: Blue, Quantity: 14, Price: 22.0
+2024-12-13 02:36:19,754 - Added product: Gwyn Endurance Tee, Size: XL, Color: Black, Quantity: 90, Price: 24.0
+2024-12-13 02:36:21,106 - Adding 2 products.
+2024-12-13 02:36:23,327 - Added product: Hollister Backyard Sweatshirt, Size: XS, Color: White, Quantity: 63, Price: 52.0
+2024-12-13 02:36:27,047 - Added product: Abominable Hoodie, Size: S, Color: Blue, Quantity: 100, Price: 69.0
+2024-12-13 02:36:31,567 - Shopping cart content: [{'name': 'Radiant Tee', 'src': 'ws12-orange_main_2.jpg', 'color': 'Blue', 'size': 'S', 'qty': 14}, {'name': 'Gwyn Endurance Tee', 'src': 'ws01-black_main_1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 90}, {'name': 'Hollister Backyard Sweatshirt', 'src': 'mh05-white_main_1.jpg', 'color': 'White', 'size': 'XS', 'qty': 63}, {'name': 'Abominable Hoodie', 'src': 'mh09-blue_main_1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 100}]
+2024-12-13 02:36:31,568 - Round 5 success, total covered 9 boundary value
