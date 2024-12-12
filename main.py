@@ -238,7 +238,7 @@ if __name__ == '__main__':
 
     success = []
     results = []
-    for i in range(1000):
+    for i in range(50):
         print(i + 1)
         driver.get('https://magento.softwaretestingboard.com/')
         seed = int(datetime.now().timestamp())
