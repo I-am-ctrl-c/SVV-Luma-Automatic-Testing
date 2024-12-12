@@ -129,7 +129,14 @@ def add_products():
                 num = outOfBound[p]
             else:
                 num = random.randint(1, 100)
+
             _Qty.send_keys(str(num))
+
+            if num < 1 or num > 100:
+                bTime += 1
+                _Qty.clear()
+                num = random.randint(1, 100)
+                _Qty.send_keys(str(num))
 
             _Price = CSSFind('[data-price-type="finalPrice"]')
             if not _Price:
@@ -145,9 +152,7 @@ def add_products():
             span_element = xFind('//span[normalize-space(text())="Add to Cart"]')
             if span_element:
                 driver.execute_script("arguments[0].click();", span_element)
-            if num < 1 or num > 100:
-                bTime += 1
-                continue
+
             items.append((_Name.text, src, size, color, num, price))
             logging.info(f"Added product: {_Name.text}, Size: {size}, Color: {color}, Quantity: {num}, Price: {price}")
 
@@ -157,8 +162,10 @@ def add_products():
 
 def check_shopping_cart(all_items):
     _Button = xFind('//html/body/div[2]/header/div[2]/div[1]/div/div/div/div[2]/div[5]/div/a/span')
-    driver.execute_script("arguments[0].click();", _Button)
-
+    if _Button:
+        driver.execute_script("arguments[0].click();", _Button)
+    else:
+        return None
     Names = xFinds('//*[@id="shopping-cart-table"]/tbody/tr/td[1]/div/strong/a')
     Colors = xFinds('//*[@id="shopping-cart-table"]/tbody/tr[1]/td[1]/div/dl/dd[2]')
     Sizes = xFinds('//*[@id="shopping-cart-table"]/tbody/tr[1]/td[1]/div/dl/dd[1]')
