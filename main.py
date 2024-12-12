@@ -254,7 +254,7 @@ if __name__ == '__main__':
         logging.info(f"Round {i+1}: Using seed {seed}")
 
         add_shopping_cart()
-        if (results[-1] == bTime)
+        if (results[-1] == bTime):
             results.append(bTime + 0.001)
         else: results.append(bTime)
         driver.delete_all_cookies()  # Clear cookies
