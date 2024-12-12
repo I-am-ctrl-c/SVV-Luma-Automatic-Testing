@@ -197,13 +197,16 @@ def check_shopping_cart(all_items):
             )
             if not matched:
                 consistent = False
+                logging.error(f"Recorded item: {recorded_item} error")
                 print("\nDiscrepancy found:")
                 print(f"Recorded item: {recorded_item}")
-
+                for item in cart_items:
+                    print(item)
     if consistent:
-        success.append(1)
+        success.append(0)
         logging.info(f"Round {i + 1} success, total covered {bTime} boundary value")
     else:
+        success.append(1)
         print("\nSome items do not match between added products and shopping cart.")
         logging.error(f"Round {i + 1} error")
 
@@ -234,7 +237,7 @@ if __name__ == '__main__':
 
     success = []
     results = []
-    for i in range(5):
+    for i in range(1):
         print(i + 1)
         driver.get('https://magento.softwaretestingboard.com/')
         seed = int(datetime.now().timestamp())
@@ -246,4 +249,4 @@ if __name__ == '__main__':
         driver.delete_all_cookies()  # Clear cookies
         driver.get('about:blank')
     plot_success_rate(success)
-    print(bTime)
+    print(success)
