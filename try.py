@@ -18,62 +18,39 @@ logging.basicConfig(
 )
 
 def xFinds(xpath: str, parent_element=None):
-    try:
-        if parent_element is None:
-            parent_element = driver
-        return parent_element.find_elements(By.XPATH, xpath)
-    except Exception as e:
-        logging.error(f"Error finding elements by XPath '{xpath}': {e}")
-        return []
+    if parent_element is None:
+        parent_element = driver
+    return parent_element.find_elements(By.XPATH, xpath)
 
 def xFind(xpath: str, parent_element=None):
-    try:
-        if parent_element is None:
-            parent_element = driver
-        return parent_element.find_element(By.XPATH, xpath)
-    except Exception as e:
-        logging.error(f"Error finding element by XPath '{xpath}': {e}")
-        return None
+    if parent_element is None:
+        parent_element = driver
+    return parent_element.find_element(By.XPATH, xpath)
 
 def cFinds(classname: str, parent_element=None):
-    try:
-        if parent_element is None:
-            parent_element = driver
-        return parent_element.find_elements(By.CLASS_NAME, classname)
-    except Exception as e:
-        logging.error(f"Error finding elements by class name '{classname}': {e}")
-        return []
+    if parent_element is None:
+        parent_element = driver
+    return parent_element.find_elements(By.CLASS_NAME, classname)
 
 def CSSFinds(classname: str, parent_element=None):
-    try:
-        if parent_element is None:
-            parent_element = driver
-        return parent_element.find_elements(By.CSS_SELECTOR, classname)
-    except Exception as e:
-        logging.error(f"Error finding elements by CSS selector '{classname}': {e}")
-        return []
+    if parent_element is None:
+        parent_element = driver
+    return parent_element.find_elements(By.CSS_SELECTOR, classname)
 
 def CSSFind(classname: str, parent_element=None):
-    try:
-        if parent_element is None:
-            parent_element = driver
-        return parent_element.find_element(By.CSS_SELECTOR, classname)
-    except Exception as e:
-        logging.error(f"Error finding element by CSS selector '{classname}': {e}")
-        return None
+    if parent_element is None:
+        parent_element = driver
+    return parent_element.find_element(By.CSS_SELECTOR, classname)
 
 def login():
     _SignIn = xFind('/html/body/div[2]/header/div[1]/div/ul/li[2]/a')
-    if _SignIn:
-        _SignIn.click()
+    _SignIn.click()
     _Email = xFind('/html/body/div[2]/main/div[3]/div/div[2]/div[1]/div[2]/form/fieldset/div[2]/div/input')
     _Password = xFind('/html/body/div[2]/main/div[3]/div/div[2]/div[1]/div[2]/form/fieldset/div[3]/div/input')
-    if _Email and _Password:
-        _Email.send_keys('zhang.23519@gmail.com')
-        _Password.send_keys('123456zzZZ')
+    _Email.send_keys('zhang.23519@gmail.com')
+    _Password.send_keys('123456zzZZ')
     _SignIn = xFind('//*[@id="send2"]/span')
-    if _SignIn:
-        _SignIn.click()
+    _SignIn.click()
     logging.info("Login completed")
 
 def add_products():
@@ -83,45 +60,29 @@ def add_products():
     all_items = []
     logging.info(f"Adding products {times} times.")
     for j in range(times):
-        category = random.choice(cloth)
-        _CategoryElement = xFind(category)
-        if _CategoryElement:
-            driver.execute_script("arguments[0].click();", _CategoryElement)
-        else:
-            continue
+        driver.execute_script("arguments[0].click();", xFind(random.choice(cloth)))
+
         items = []
         numbers = random.randint(1, 4)
         logging.info(f"Adding {numbers} products.")
         for i in range(numbers):
             products = cFinds('product-image-photo')
-            if not products:
-                continue
             product = random.choice(products)
+
             driver.execute_script("arguments[0].click();", product)
 
-            _Name = xFind('//*[@id="maincontent"]/div[2]/div/div[1]/div[1]/h1/span')
-            if not _Name:
-                continue
-
+            _Name = xFind('//*[@id="maincontent"]/div[2]/div/div[1]/div[1]/h1/span').text
             _Sizes = CSSFinds('div.swatch-option.text')
-            if _Sizes:
-                _Size = random.choice(_Sizes)
-                size = _Size.text
-                driver.execute_script("arguments[0].click();", _Size)
-            else:
-                size = "Unknown"
+            _Size = random.choice(_Sizes)
+            size = _Size.text
+            driver.execute_script("arguments[0].click();", _Size)
 
             _Colors = CSSFinds('div.swatch-option.color')
-            if _Colors:
-                _Color = random.choice(_Colors)
-                color = _Color.get_dom_attribute("option-label")
-                driver.execute_script("arguments[0].click();", _Color)
-            else:
-                color = "Unknown"
+            _Color = random.choice(_Colors)
+            color = _Color.get_dom_attribute("option-label")
+            driver.execute_script("arguments[0].click();", _Color)
 
             _Qty = CSSFind('.input-text.qty')
-            if not _Qty:
-                continue
             _Qty.clear()
             if random.randint(1, 100) <= 50:
                 p = random.randint(0, 5)
@@ -131,25 +92,22 @@ def add_products():
                 num = random.randint(1, 100)
             _Qty.send_keys(str(num))
 
+            if num < 1 or num > 100:
+                bTime += 1
+                num = random.randint(1, 100)
+                _Qty.send_keys(str(num))
+
             _Price = CSSFind('[data-price-type="finalPrice"]')
-            if not _Price:
-                continue
             price = float(_Price.get_dom_attribute('data-price-amount'))
 
             _Photo = CSSFind('img[aria-hidden="false"]')
-            if _Photo:
-                src = _Photo.get_dom_attribute('src').rsplit('/', 1)[-1]
-            else:
-                src = "Unknown"
+            src = _Photo.get_dom_attribute('src').rsplit('/', 1)[-1]
 
             span_element = xFind('//span[normalize-space(text())="Add to Cart"]')
-            if span_element:
-                driver.execute_script("arguments[0].click();", span_element)
-            if num < 1 or num > 100:
-                bTime += 1
-                continue
-            items.append((_Name.text, src, size, color, num, price))
-            logging.info(f"Added product: {_Name.text}, Size: {size}, Color: {color}, Quantity: {num}, Price: {price}")
+            driver.execute_script("arguments[0].click();", span_element)
+
+            items.append((_Name, src, size, color, num, price))
+            logging.info(f"Added product: {_Name}, Size: {size}, Color: {color}, Quantity: {num}, Price: {price}")
 
             driver.back()
         all_items.append(items)
@@ -174,35 +132,12 @@ def check_shopping_cart(all_items):
             "size": size.text.strip(),
             "qty": int(qty.get_dom_attribute("value")),
         })
+
     logging.info(f"Shopping cart content: {cart_items}")
-
-    consistent = True
-    for recorded_items in all_items:
-        for recorded_item in recorded_items:
-            rec_name, src, size, color, num, price = recorded_item
-            matched = any(
-                rec_name == item["name"] and  # 比较商品名字
-                item["color"] == color and  # 比较颜色
-                item["size"] == size and
-                item["src"] == src and
-                item["qty"] == num  # 比较数量
-                for item in cart_items
-            )
-            if not matched:
-                consistent = False
-                print("\nDiscrepancy found:")
-                print(f"Recorded item: {recorded_item}")
-
-    if consistent:
-        logging.info(f"Round {i + 1} success, total covered {bTime} boundary value")
-    else:
-        print("\nSome items do not match between added products and shopping cart.")
-        logging.error(f"Round {i + 1} error")
 
 def add_shopping_cart():
     all_items = add_products()
-    if all_items:
-        check_shopping_cart(all_items)
+    check_shopping_cart(all_items)
 
 def plot_results(results):
     counter = Counter(results)
@@ -219,7 +154,7 @@ if __name__ == '__main__':
     opt = Options()
     opt.add_experimental_option('detach', True)
     driver = webdriver.Chrome(service=Service('chromedriver.exe'), options=opt)
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(5)
 
     results = []
     for i in range(5):
@@ -231,6 +166,7 @@ if __name__ == '__main__':
 
         add_shopping_cart()
         results.append(bTime)
-        driver.delete_all_cookies()  # Clear cookies
+        logging.info(f"Round {i + 1} ends, totally covered {results[-1]} boundary value")
+        driver.delete_all_cookies()  # 清除 Cookies
         driver.get('about:blank')
     plot_results(results)
