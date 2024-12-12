@@ -1,5 +1,6 @@
 import random
 import logging
+import numpy as np
 from datetime import datetime
 from collections import Counter
 import matplotlib.pyplot as plt
@@ -79,7 +80,7 @@ def login():
 def add_products():
     global bTime
     cloth = ['//*[@id="ui-id-11"]', '//*[@id="ui-id-12"]', '//*[@id="ui-id-13"]', '//*[@id="ui-id-14"]', '//*[@id="ui-id-19"]', '//*[@id="ui-id-20"]', '//*[@id="ui-id-21"]', '//*[@id="ui-id-22"]']
-    times = random.randint(1, 5)
+    times = random.randint(1, 3)
     all_items = []
     logging.info(f"Adding products {times} times.")
     for j in range(times):
@@ -90,7 +91,7 @@ def add_products():
         else:
             continue
         items = []
-        numbers = random.randint(1, 4)
+        numbers = random.randint(1, 3)
         logging.info(f"Adding {numbers} products.")
         for i in range(numbers):
             products = cFinds('product-image-photo')
@@ -201,6 +202,7 @@ def check_shopping_cart(all_items):
                 print(f"Recorded item: {recorded_item}")
 
     if consistent:
+        success.append(1)
         logging.info(f"Round {i + 1} success, total covered {bTime} boundary value")
     else:
         print("\nSome items do not match between added products and shopping cart.")
@@ -211,15 +213,29 @@ def add_shopping_cart():
     if all_items:
         check_shopping_cart(all_items)
 
-def plot_results(results):
-    counter = Counter(results)
-    labels = counter.keys()
-    sizes = counter.values()
+def plot_success_rate(results):
+    # 绘制成功测试比例的饼图
+    successes = results.count(0)
+    failures = len(results) - successes
+    labels = ['Success', 'Failure']
+    sizes = [successes, failures]
 
     plt.figure(figsize=(6, 6))
-    plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
-    plt.title("Results Distribution")
-    plt.savefig("results_pie_chart.png")
+    plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, colors=['#4CAF50', '#F44336'])
+    plt.title("Success Rate")
+    plt.savefig("success_rate_pie_chart.png")
+    plt.show()
+
+def plot_boundary_values(results):
+    # 绘制每轮边界值覆盖的折线图
+    rounds = np.arange(1, len(results) + 1)
+    plt.figure(figsize=(8, 5))
+    plt.plot(rounds, results, marker='o', linestyle='-', linewidth=2)
+    plt.title("Boundary Values Covered per Round")
+    plt.xlabel("Round")
+    plt.ylabel("Boundary Values Covered")
+    plt.grid(True)
+    plt.savefig("boundary_values_line_chart.png")
     plt.show()
 
 if __name__ == '__main__':
@@ -228,6 +244,7 @@ if __name__ == '__main__':
     driver = webdriver.Chrome(service=Service('chromedriver.exe'), options=opt)
     driver.implicitly_wait(10)
 
+    success = []
     results = []
     for i in range(5):
         print(i + 1)
@@ -240,4 +257,5 @@ if __name__ == '__main__':
         results.append(bTime)
         driver.delete_all_cookies()  # Clear cookies
         driver.get('about:blank')
-    plot_results(results)
+    plot_success_rate(success)
+    plot_boundary_values(results)
