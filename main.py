@@ -192,7 +192,6 @@ def check_shopping_cart(all_items):
                 rec_name == item["name"] and  # 比较商品名字
                 item["color"] == color and  # 比较颜色
                 item["size"] == size and
-                item["src"] == src and
                 item["qty"] == num  # 比较数量
                 for item in cart_items
             )
@@ -226,17 +225,6 @@ def plot_success_rate(results):
     plt.savefig("success_rate_pie_chart.png")
     plt.show()
 
-def plot_boundary_values(results):
-    # 绘制每轮边界值覆盖的折线图
-    rounds = np.arange(1, len(results) + 1)
-    plt.figure(figsize=(8, 5))
-    plt.plot(rounds, results, marker='o', linestyle='-', linewidth=2)
-    plt.title("Boundary Values Covered per Round")
-    plt.xlabel("Round")
-    plt.ylabel("Boundary Values Covered")
-    plt.grid(True)
-    plt.savefig("boundary_values_line_chart.png")
-    plt.show()
 
 if __name__ == '__main__':
     opt = Options()
@@ -254,10 +242,8 @@ if __name__ == '__main__':
         logging.info(f"Round {i+1}: Using seed {seed}")
 
         add_shopping_cart()
-        if results[-1] == bTime:
-            results.append(bTime + 0.001)
-        else: results.append(bTime)
+        results.append(bTime)
         driver.delete_all_cookies()  # Clear cookies
         driver.get('about:blank')
     plot_success_rate(success)
-    plot_boundary_values(results)
+    print(bTime)
