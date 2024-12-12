@@ -237,7 +237,7 @@ if __name__ == '__main__':
 
     success = []
     results = []
-    for i in range(1):
+    for i in range(100):
         print(i + 1)
         driver.get('https://magento.softwaretestingboard.com/')
         seed = int(datetime.now().timestamp())
@@ -249,4 +249,4 @@ if __name__ == '__main__':
         driver.delete_all_cookies()  # Clear cookies
         driver.get('about:blank')
     plot_success_rate(success)
-    print(success)
+    print(results)
