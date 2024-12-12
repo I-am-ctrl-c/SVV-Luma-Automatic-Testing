@@ -192,6 +192,7 @@ def check_shopping_cart(all_items):
                 rec_name == item["name"] and  # 比较商品名字
                 item["color"] == color and  # 比较颜色
                 item["size"] == size and
+                item["src"] == src and
                 item["qty"] == num  # 比较数量
                 for item in cart_items
             )
@@ -237,7 +238,7 @@ if __name__ == '__main__':
 
     success = []
     results = []
-    for i in range(100):
+    for i in range(1000):
         print(i + 1)
         driver.get('https://magento.softwaretestingboard.com/')
         seed = int(datetime.now().timestamp())
