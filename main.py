@@ -244,8 +244,9 @@ def check_shopping_cart(all_items):
             matched = any(
                 rec_name == item["name"] and
                 item["color"] == color and
-                item["size"] == size and
-                item["qty"] == num
+                item["size"] == size
+                and item["src"] == src
+                and item["qty"] == num
                 for item in cart_items
             )
             if not matched:
@@ -310,5 +311,6 @@ if __name__ == '__main__':
         driver.get('about:blank')
 
     plot_success_rate(success)
+    print(f"Cover boundary:{bTime} times")
     print("Success array:", success)
     driver.quit()
