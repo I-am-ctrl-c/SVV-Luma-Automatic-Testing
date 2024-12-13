@@ -278,8 +278,17 @@ def add_shopping_cart():
         check_shopping_cart(all_items)
 
 def edit_shopping_cart():
-    random.seed(1)
+    random.seed(3)
     all_items = add_products()
+    _Button = xFind(SELECTORS["cart_button"])
+    if _Button:
+        driver.execute_script("arguments[0].click();", _Button)
+    dele = xFinds('//*[@id="shopping-cart-table"]/tbody/tr[2]/td/div/a[2]')
+    if dele:
+        for i in range(random.randint(1, len(dele) - 1)):
+            _Button = random.choice(dele)
+            driver.execute_script("arguments[0].click();", _Button)
+
 
 def plot_success_rate(results):
     """
@@ -297,31 +306,33 @@ def plot_success_rate(results):
     plt.show()
 
 if __name__ == '__main__':
-    opt = Options()
-    opt.add_experimental_option('detach', True)
-    driver = webdriver.Chrome(service=Service('chromedriver.exe'), options=opt)
-    driver.implicitly_wait(10)
+    # opt = Options()
+    # opt.add_experimental_option('detach', True)
+    # driver = webdriver.Chrome(service=Service('chromedriver.exe'), options=opt)
+    # driver.implicitly_wait(10)
+    #
+    # success = []
+    # results = []
+    # rounds = 50
+    # for i in range(rounds):
+    #     print(i + 1)
+    #     driver.get('https://magento.softwaretestingboard.com/')
+    #     seed = int(datetime.now().timestamp())
+    #     random.seed(seed)
+    #     logging.info(f"Round {i+1}: Using seed {seed}")
+    #
+    #     add_shopping_cart()
+    #     results.append(bTime)
+    #     driver.delete_all_cookies()  # Clear cookies
+    #     driver.get('about:blank')
+    #
+    # plot_success_rate(success)
+    # print(f"Cover boundary:{bTime} times")
+    # print("Success array:", success)
+    # logging.info(f"Final success list: {success}")
+    # driver.quit()
 
-    success = []
-    results = []
-    rounds = 50
-    for i in range(rounds):
-        print(i + 1)
-        driver.get('https://magento.softwaretestingboard.com/')
-        seed = int(datetime.now().timestamp())
-        random.seed(seed)
-        logging.info(f"Round {i+1}: Using seed {seed}")
 
-        add_shopping_cart()
-        results.append(bTime)
-        driver.delete_all_cookies()  # Clear cookies
-        driver.get('about:blank')
-
-    plot_success_rate(success)
-    print(f"Cover boundary:{bTime} times")
-    print("Success array:", success)
-    logging.info(f"Final success list: {success}")
-    driver.quit()
 
     opt = Options()
     opt.add_experimental_option('detach', True)

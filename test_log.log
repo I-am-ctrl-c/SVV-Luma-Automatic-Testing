@@ -1200,3 +1200,73 @@ Stacktrace:
 2024-12-13 04:16:17,693 - Recorded item: ('Proteus Fitness Jackshirt', 'mj12-black1.jpg', 'XL', 'Black', 73, 45.0) not found in cart properly.
 2024-12-13 04:16:17,694 - Recorded item: ('Aero Daily Fitness Tee', 'ms01-yellow2.jpg', 'L', 'Yellow', 61, 24.0) not found in cart properly.
 2024-12-13 04:16:17,694 - Round 50 error
+2024-12-13 11:21:32,200 - Round 1: Using seed 1
+2024-12-13 11:21:32,210 - Adding products 1 times.
+2024-12-13 11:21:34,766 - Adding 2 products.
+2024-12-13 11:21:37,489 - Added product: Eos V-Neck Hoodie, Size: L, Color: Green, Quantity: 84, Price: 54.0
+2024-12-13 11:21:40,456 - Added product: Daphne Full-Zip Hoodie, Size: S, Color: Purple, Quantity: 4, Price: 59.0
+2024-12-13 11:21:53,275 - Round 2: Using seed 1
+2024-12-13 11:21:53,275 - Adding products 1 times.
+2024-12-13 11:21:54,350 - Adding 2 products.
+2024-12-13 11:21:55,583 - Added product: Eos V-Neck Hoodie, Size: L, Color: Green, Quantity: 84, Price: 54.0
+2024-12-13 11:21:58,274 - Added product: Daphne Full-Zip Hoodie, Size: S, Color: Purple, Quantity: 4, Price: 59.0
+2024-12-13 11:22:10,821 - Round 3: Using seed 1
+2024-12-13 11:22:10,821 - Adding products 1 times.
+2024-12-13 11:22:11,207 - Adding 2 products.
+2024-12-13 11:22:11,243 - Error finding elements by class name 'product-image-photo': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DC516CB5+28821]
+	(No symbol) [0x00007FF7DC483840]
+	(No symbol) [0x00007FF7DC32578A]
+	(No symbol) [0x00007FF7DC2FF4F5]
+	(No symbol) [0x00007FF7DC3A6247]
+	(No symbol) [0x00007FF7DC3BECE2]
+	(No symbol) [0x00007FF7DC39F0A3]
+	(No symbol) [0x00007FF7DC36A778]
+	(No symbol) [0x00007FF7DC36B8E1]
+	GetHandleVerifier [0x00007FF7DC84FCAD+3408013]
+	GetHandleVerifier [0x00007FF7DC86741F+3504127]
+	GetHandleVerifier [0x00007FF7DC85B5FD+3455453]
+	GetHandleVerifier [0x00007FF7DC5DBDBB+835995]
+	(No symbol) [0x00007FF7DC48EB5F]
+	(No symbol) [0x00007FF7DC48A814]
+	(No symbol) [0x00007FF7DC48A9AD]
+	(No symbol) [0x00007FF7DC47A199]
+	BaseThreadInitThunk [0x00007FFCC02D259D+29]
+	RtlUserThreadStart [0x00007FFCC0CCAF38+40]
+
+2024-12-13 11:22:11,244 - Error finding elements by XPath '//*[@id="shopping-cart-table"]/tbody/tr[2]/td/div/a[2]': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DC516CB5+28821]
+	(No symbol) [0x00007FF7DC483840]
+	(No symbol) [0x00007FF7DC32578A]
+	(No symbol) [0x00007FF7DC2FF4F5]
+	(No symbol) [0x00007FF7DC3A6247]
+	(No symbol) [0x00007FF7DC3BECE2]
+	(No symbol) [0x00007FF7DC39F0A3]
+	(No symbol) [0x00007FF7DC36A778]
+	(No symbol) [0x00007FF7DC36B8E1]
+	GetHandleVerifier [0x00007FF7DC84FCAD+3408013]
+	GetHandleVerifier [0x00007FF7DC86741F+3504127]
+	GetHandleVerifier [0x00007FF7DC85B5FD+3455453]
+	GetHandleVerifier [0x00007FF7DC5DBDBB+835995]
+	(No symbol) [0x00007FF7DC48EB5F]
+	(No symbol) [0x00007FF7DC48A814]
+	(No symbol) [0x00007FF7DC48A9AD]
+	(No symbol) [0x00007FF7DC47A199]
+	BaseThreadInitThunk [0x00007FFCC02D259D+29]
+	RtlUserThreadStart [0x00007FFCC0CCAF38+40]
+
+2024-12-13 11:23:23,288 - Round 1: Using seed 1
+2024-12-13 11:23:23,288 - Adding products 1 times.
+2024-12-13 11:23:24,984 - Adding 1 products.
+2024-12-13 11:23:27,366 - Added product: Phoebe Zipper Sweatshirt, Size: S, Color: White, Quantity: 40, Price: 59.0
+2024-12-13 11:24:01,722 - Round 1: Using seed 1
+2024-12-13 11:24:01,722 - Adding products 1 times.
+2024-12-13 11:24:04,883 - Adding 2 products.
+2024-12-13 11:24:08,027 - Added product: Layla Tee, Size: L, Color: Red, Quantity: 9, Price: 29.0
+2024-12-13 11:24:15,912 - Added product: Layla Tee, Size: XS, Color: Green, Quantity: 30, Price: 29.0
