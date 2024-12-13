@@ -278,7 +278,7 @@ def add_shopping_cart():
         check_shopping_cart(all_items)
 
 def edit_shopping_cart():
-    random.seed(3)
+    random.seed(4)
     all_items = add_products()
     _Button = xFind(SELECTORS["cart_button"])
     if _Button:
