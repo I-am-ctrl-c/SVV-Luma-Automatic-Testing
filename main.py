@@ -277,6 +277,10 @@ def add_shopping_cart():
     if all_items:
         check_shopping_cart(all_items)
 
+def edit_shopping_cart():
+    random.seed(1)
+    all_items = add_products()
+
 def plot_success_rate(results):
     """
     Plot a pie chart for success/failure rate.
@@ -318,3 +322,30 @@ if __name__ == '__main__':
     print("Success array:", success)
     logging.info(f"Final success list: {success}")
     driver.quit()
+
+    opt = Options()
+    opt.add_experimental_option('detach', True)
+    driver = webdriver.Chrome(service=Service('chromedriver.exe'), options=opt)
+    driver.implicitly_wait(10)
+
+    success = []
+    results = []
+    rounds = 50
+    for i in range(rounds):
+        print(i + 1)
+        driver.get('https://magento.softwaretestingboard.com/')
+        seed = 1
+        random.seed(seed)
+        logging.info(f"Round {i+1}: Using seed {seed}")
+
+        edit_shopping_cart()
+        results.append(bTime)
+        driver.delete_all_cookies()  # Clear cookies
+        driver.get('about:blank')
+
+    plot_success_rate(success)
+    print(f"Cover boundary:{bTime} times")
+    print("Success array:", success)
+    logging.info(f"Final success list: {success}")
+    driver.quit()
+

@@ -21,7 +21,7 @@ if __name__ == "__main__":
     success = []
     for i in range(1000):
         r = random.randint(1, 100)
-        if r <= 40:
+        if r <= 41:
             success.append(0)
         else:
             success.append(1)
