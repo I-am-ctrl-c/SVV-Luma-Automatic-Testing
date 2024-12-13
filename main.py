@@ -195,7 +195,8 @@ def add_products():
 
             _Photo = CSSFind(SELECTORS["photo_element"])
             if _Photo:
-                src = _Photo.get_dom_attribute('src').rsplit('/', 1)[-1]
+                src = (_Photo.get_dom_attribute('src').rsplit('/', 1)[-1])
+                src = src.replace("_main_", "").replace("_back_", "")
             else:
                 src = "Unknown"
 
@@ -228,9 +229,11 @@ def check_shopping_cart(all_items):
 
     cart_items = []
     for name, src, color, size, qty in zip(Names, Srcs, Colors, Sizes, Qtys):
+        temp = src.get_dom_attribute("src").rsplit('/', 1)[-1].replace("_back_", "")
+        temp = temp.replace("_main_", "")
         cart_items.append({
             "name": name.text.strip(),
-            "src": src.get_dom_attribute("src").rsplit('/', 1)[-1],
+            "src": temp,
             "color": color.text.strip(),
             "size": size.text.strip(),
             "qty": int(qty.get_dom_attribute("value")),
@@ -297,7 +300,7 @@ if __name__ == '__main__':
 
     success = []
     results = []
-    rounds = 5  # 根据需求修改测试次数
+    rounds = 50
     for i in range(rounds):
         print(i + 1)
         driver.get('https://magento.softwaretestingboard.com/')
@@ -313,4 +316,5 @@ if __name__ == '__main__':
     plot_success_rate(success)
     print(f"Cover boundary:{bTime} times")
     print("Success array:", success)
+    logging.info(f"Final success list: {success}")
     driver.quit()

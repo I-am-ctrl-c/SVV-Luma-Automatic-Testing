@@ -328,3 +328,875 @@
 2024-12-13 02:36:27,047 - Added product: Abominable Hoodie, Size: S, Color: Blue, Quantity: 100, Price: 69.0
 2024-12-13 02:36:31,567 - Shopping cart content: [{'name': 'Radiant Tee', 'src': 'ws12-orange_main_2.jpg', 'color': 'Blue', 'size': 'S', 'qty': 14}, {'name': 'Gwyn Endurance Tee', 'src': 'ws01-black_main_1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 90}, {'name': 'Hollister Backyard Sweatshirt', 'src': 'mh05-white_main_1.jpg', 'color': 'White', 'size': 'XS', 'qty': 63}, {'name': 'Abominable Hoodie', 'src': 'mh09-blue_main_1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 100}]
 2024-12-13 02:36:31,568 - Round 5 success, total covered 9 boundary value
+2024-12-13 02:50:27,092 - Round 1: Using seed 1734029427
+2024-12-13 02:50:27,092 - Adding products 2 times.
+2024-12-13 02:50:28,556 - Adding 3 products.
+2024-12-13 02:50:31,598 - Added product: Rocco Gym Tank, Size: L, Color: Blue, Quantity: 17, Price: 24.0
+2024-12-13 02:50:34,938 - Added product: Tiberius Gym Tank, Size: XL, Color: Yellow, Quantity: 31, Price: 18.0
+2024-12-13 02:50:38,278 - Added product: Erikssen CoolTech\u2122 Fitness Tank, Size: L, Color: Orange, Quantity: 16, Price: 29.0
+2024-12-13 02:50:40,520 - Adding 3 products.
+2024-12-13 02:50:41,707 - Added product: Adrienne Trek Jacket, Size: L, Color: Orange, Quantity: 54, Price: 57.0
+2024-12-13 02:50:45,241 - Added product: Olivia 1/4 Zip Light Jacket, Size: XL, Color: Purple, Quantity: 26, Price: 77.0
+2024-12-13 02:50:49,048 - Added product: Stellar Solar Jacket, Size: L, Color: Yellow, Quantity: 71, Price: 75.0
+2024-12-13 02:50:54,635 - Shopping cart content: [{'name': 'Rocco Gym Tank', 'src': 'mt05-blue_main_1.jpg', 'color': 'Blue', 'size': 'L', 'qty': 17}, {'name': 'Tiberius Gym Tank', 'src': 'mt10-yellow_main_1.jpg', 'color': 'Yellow', 'size': 'XL', 'qty': 31}, {'name': 'Erikssen CoolTech\u2122 Fitness Tank', 'src': 'mt01-red_main_1.jpg', 'color': 'Orange', 'size': 'L', 'qty': 16}, {'name': 'Adrienne Trek Jacket', 'src': 'wj08-gray_main_1.jpg', 'color': 'Orange', 'size': 'L', 'qty': 54}, {'name': 'Olivia 1/4 Zip Light Jacket', 'src': 'wj12-blue_main_1.jpg', 'color': 'Purple', 'size': 'XL', 'qty': 26}, {'name': 'Stellar Solar Jacket', 'src': 'wj01-red_main_1.jpg', 'color': 'Yellow', 'size': 'L', 'qty': 71}]
+2024-12-13 02:50:54,635 - Recorded item: ('Erikssen CoolTech\u2122 Fitness Tank', 'mt01-red_back_1.jpg', 'L', 'Orange', 16, 29.0) not found in cart properly.
+2024-12-13 02:50:54,635 - Recorded item: ('Adrienne Trek Jacket', 'wj08-gray_back_1.jpg', 'L', 'Orange', 54, 57.0) not found in cart properly.
+2024-12-13 02:50:54,635 - Recorded item: ('Olivia 1/4 Zip Light Jacket', 'wj12-blue_back_1.jpg', 'XL', 'Purple', 26, 77.0) not found in cart properly.
+2024-12-13 02:50:54,635 - Recorded item: ('Stellar Solar Jacket', 'wj01-red_back_1.jpg', 'L', 'Yellow', 71, 75.0) not found in cart properly.
+2024-12-13 02:50:54,635 - Round 1 error
+2024-12-13 02:50:55,739 - Round 2: Using seed 1734029455
+2024-12-13 02:50:55,739 - Adding products 1 times.
+2024-12-13 02:50:56,407 - Adding 3 products.
+2024-12-13 02:50:57,545 - Added product: Circe Hooded Ice Fleece, Size: XS, Color: Purple, Quantity: 6, Price: 68.0
+2024-12-13 02:51:00,725 - Added product: Miko Pullover Hoodie, Size: S, Color: Purple, Quantity: 42, Price: 69.0
+2024-12-13 02:51:03,899 - Added product: Selene Yoga Hoodie, Size: XL, Color: Purple, Quantity: 48, Price: 42.0
+2024-12-13 02:51:07,782 - Shopping cart content: [{'name': 'Circe Hooded Ice Fleece', 'src': 'wh12-gray_main_1.jpg', 'color': 'Purple', 'size': 'XS', 'qty': 6}, {'name': 'Miko Pullover Hoodie', 'src': 'wh04-blue_main_1.jpg', 'color': 'Purple', 'size': 'S', 'qty': 42}, {'name': 'Selene Yoga Hoodie', 'src': 'wh05-white_main_1.jpg', 'color': 'Purple', 'size': 'XL', 'qty': 48}]
+2024-12-13 02:51:07,782 - Recorded item: ('Circe Hooded Ice Fleece', 'wh12-gray_back_1.jpg', 'XS', 'Purple', 6, 68.0) not found in cart properly.
+2024-12-13 02:51:07,782 - Recorded item: ('Miko Pullover Hoodie', 'wh04-blue_back_1.jpg', 'S', 'Purple', 42, 69.0) not found in cart properly.
+2024-12-13 02:51:07,782 - Recorded item: ('Selene Yoga Hoodie', 'wh05-white_back_1.jpg', 'XL', 'Purple', 48, 42.0) not found in cart properly.
+2024-12-13 02:51:07,782 - Round 2 error
+2024-12-13 02:51:08,750 - Round 3: Using seed 1734029468
+2024-12-13 02:51:08,750 - Adding products 2 times.
+2024-12-13 02:51:09,412 - Adding 2 products.
+2024-12-13 02:51:11,174 - Added product: Josie Yoga Jacket, Size: S, Color: Black, Quantity: 9, Price: 56.25
+2024-12-13 02:51:13,566 - Added product: Neve Studio Dance Jacket, Size: L, Color: Blue, Quantity: 32, Price: 69.0
+2024-12-13 02:51:15,755 - Adding 2 products.
+2024-12-13 02:51:16,892 - Added product: Gobi HeatTec\xae Tee, Size: XL, Color: Black, Quantity: 80, Price: 29.0
+2024-12-13 02:51:20,467 - Added product: Aero Daily Fitness Tee, Size: XL, Color: Yellow, Quantity: 87, Price: 24.0
+2024-12-13 02:51:24,594 - Shopping cart content: [{'name': 'Josie Yoga Jacket', 'src': 'wj02-gray_main_1.jpg', 'color': 'Black', 'size': 'S', 'qty': 9}, {'name': 'Neve Studio Dance Jacket', 'src': 'wj11-blue_main_1.jpg', 'color': 'Blue', 'size': 'L', 'qty': 32}, {'name': 'Gobi HeatTec\xae Tee', 'src': 'ms04-orange_main_1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 80}, {'name': 'Aero Daily Fitness Tee', 'src': 'ms01-blue_main_1.jpg', 'color': 'Yellow', 'size': 'XL', 'qty': 87}]
+2024-12-13 02:51:24,594 - Recorded item: ('Josie Yoga Jacket', 'wj02-gray_back_1.jpg', 'S', 'Black', 9, 56.25) not found in cart properly.
+2024-12-13 02:51:24,594 - Recorded item: ('Gobi HeatTec\xae Tee', 'ms04-orange_back_1.jpg', 'XL', 'Black', 80, 29.0) not found in cart properly.
+2024-12-13 02:51:24,594 - Recorded item: ('Aero Daily Fitness Tee', 'ms01-blue_back_1.jpg', 'XL', 'Yellow', 87, 24.0) not found in cart properly.
+2024-12-13 02:51:24,595 - Round 3 error
+2024-12-13 02:51:25,597 - Round 4: Using seed 1734029485
+2024-12-13 02:51:25,597 - Adding products 1 times.
+2024-12-13 02:51:26,297 - Adding 1 products.
+2024-12-13 02:51:27,399 - Added product: Abominable Hoodie, Size: XL, Color: Red, Quantity: 69, Price: 69.0
+2024-12-13 02:51:30,614 - Shopping cart content: [{'name': 'Abominable Hoodie', 'src': 'mh09-blue_main_1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 69}]
+2024-12-13 02:51:30,614 - Recorded item: ('Abominable Hoodie', 'mh09-blue_back_1.jpg', 'XL', 'Red', 69, 69.0) not found in cart properly.
+2024-12-13 02:51:30,614 - Round 4 error
+2024-12-13 02:51:31,632 - Round 5: Using seed 1734029491
+2024-12-13 02:51:31,632 - Adding products 3 times.
+2024-12-13 02:51:32,372 - Adding 3 products.
+2024-12-13 02:51:34,343 - Added product: Zoltan Gym Tee, Size: XL, Color: Blue, Quantity: 20, Price: 29.0
+2024-12-13 02:51:37,574 - Added product: Balboa Persistence Tee, Size: L, Color: Green, Quantity: 57, Price: 29.0
+2024-12-13 02:51:40,325 - Added product: Ryker LumaTech\u2122 Tee (Crew-neck), Size: S, Color: Red, Quantity: 11, Price: 32.0
+2024-12-13 02:51:42,736 - Adding 3 products.
+2024-12-13 02:51:43,878 - Added product: Argus All-Weather Tank, Size: L, Color: Gray, Quantity: 39, Price: 22.0
+2024-12-13 02:51:47,744 - Added product: Helios Endurance Tank, Size: XL, Color: Blue, Quantity: 27, Price: 32.0
+2024-12-13 02:51:50,598 - Added product: Argus All-Weather Tank, Size: M, Color: Gray, Quantity: 16, Price: 22.0
+2024-12-13 02:51:52,780 - Adding 3 products.
+2024-12-13 02:51:54,224 - Added product: Taurus Elements Shell, Size: XL, Color: Blue, Quantity: 46, Price: 65.0
+2024-12-13 02:51:58,349 - Added product: Kenobi Trail Jacket, Size: L, Color: Black, Quantity: 13, Price: 47.0
+2024-12-13 02:52:01,682 - Added product: Typhon Performance Fleece-lined Jacket, Size: XS, Color: Black, Quantity: 17, Price: 60.0
+2024-12-13 02:52:06,964 - Shopping cart content: [{'name': 'Zoltan Gym Tee', 'src': 'ms06-blue_main_1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 20}, {'name': 'Balboa Persistence Tee', 'src': 'ms03-black_main_1.jpg', 'color': 'Green', 'size': 'L', 'qty': 57}, {'name': 'Ryker LumaTech\u2122 Tee (Crew-neck)', 'src': 'ms09-blue_main_1.jpg', 'color': 'Red', 'size': 'S', 'qty': 11}, {'name': 'Argus All-Weather Tank', 'src': 'mt07-gray_main_1.jpg', 'color': 'Gray', 'size': 'L', 'qty': 39}, {'name': 'Helios Endurance Tank', 'src': 'mt04-blue_main_1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 27}, {'name': 'Argus All-Weather Tank', 'src': 'mt07-gray_main_1.jpg', 'color': 'Gray', 'size': 'M', 'qty': 16}, {'name': 'Taurus Elements Shell', 'src': 'mj09-yellow_main_2.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 46}, {'name': 'Kenobi Trail Jacket', 'src': 'mj04-black_main_1.jpg', 'color': 'Black', 'size': 'L', 'qty': 13}, {'name': 'Typhon Performance Fleece-lined Jacket', 'src': 'mj11-black_main_1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 17}]
+2024-12-13 02:52:06,964 - Recorded item: ('Balboa Persistence Tee', 'ms03-black_back_1.jpg', 'L', 'Green', 57, 29.0) not found in cart properly.
+2024-12-13 02:52:06,964 - Recorded item: ('Ryker LumaTech\u2122 Tee (Crew-neck)', 'ms09-blue_back_1.jpg', 'S', 'Red', 11, 32.0) not found in cart properly.
+2024-12-13 02:52:06,965 - Recorded item: ('Taurus Elements Shell', 'mj09-yellow_back_2.jpg', 'XL', 'Blue', 46, 65.0) not found in cart properly.
+2024-12-13 02:52:06,965 - Round 5 error
+2024-12-13 03:00:47,536 - Round 1: Using seed 1734030047
+2024-12-13 03:00:47,537 - Adding products 1 times.
+2024-12-13 03:00:54,511 - Adding 2 products.
+2024-12-13 03:00:58,825 - Added product: Hyperion Elements Jacket, Size: S, Color: Green, Quantity: 21, Price: 51.0
+2024-12-13 03:01:04,738 - Added product: Kenobi Trail Jacket, Size: XL, Color: Blue, Quantity: 80, Price: 47.0
+2024-12-13 03:01:10,530 - Shopping cart content: [{'name': 'Hyperion Elements Jacket', 'src': 'mj02-green_main_1.jpg', 'color': 'Green', 'size': 'S', 'qty': 21}, {'name': 'Kenobi Trail Jacket', 'src': 'mj04-black_main_1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 80}]
+2024-12-13 03:01:10,531 - Recorded item: ('Kenobi Trail Jacket', 'mj04-black_back_1.jpg', 'XL', 'Blue', 80, 47.0) not found in cart properly.
+2024-12-13 03:01:10,531 - Round 1 error
+2024-12-13 03:01:11,955 - Round 2: Using seed 1734030071
+2024-12-13 03:01:11,955 - Adding products 3 times.
+2024-12-13 03:01:15,357 - Adding 2 products.
+2024-12-13 03:01:17,398 - Added product: Antonia Racer Tank, Size: XL, Color: Yellow, Quantity: 76, Price: 34.0
+2024-12-13 03:01:22,111 - Added product: Bella Tank, Size: XS, Color: Black, Quantity: 38, Price: 29.0
+2024-12-13 03:01:23,857 - Adding 2 products.
+2024-12-13 03:01:27,065 - Added product: Leah Yoga Top, Size: L, Color: Orange, Quantity: 64, Price: 39.0
+2024-12-13 03:01:31,507 - Added product: Maya Tunic, Size: M, Color: White, Quantity: 11, Price: 29.0
+2024-12-13 03:01:37,956 - Adding 3 products.
+2024-12-13 03:01:41,567 - Added product: Grayson Crewneck Sweatshirt, Size: S, Color: Orange, Quantity: 31, Price: 64.0
+2024-12-13 03:01:46,826 - Added product: Hollister Backyard Sweatshirt, Size: XS, Color: Green, Quantity: 17, Price: 52.0
+2024-12-13 03:01:52,156 - Added product: Ajax Full-Zip Sweatshirt, Size: XS, Color: Green, Quantity: 37, Price: 69.0
+2024-12-13 03:01:58,266 - Shopping cart content: [{'name': 'Antonia Racer Tank', 'src': 'wt08-black_main_1.jpg', 'color': 'Yellow', 'size': 'XL', 'qty': 76}, {'name': 'Bella Tank', 'src': 'wt01-blue_main_1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 38}, {'name': 'Leah Yoga Top', 'src': 'wt05-purple_main_2.jpg', 'color': 'Orange', 'size': 'L', 'qty': 64}, {'name': 'Maya Tunic', 'src': 'wt07-green_main_1.jpg', 'color': 'White', 'size': 'M', 'qty': 11}, {'name': 'Grayson Crewneck Sweatshirt', 'src': 'mh11-white_main_1.jpg', 'color': 'Orange', 'size': 'S', 'qty': 31}, {'name': 'Hollister Backyard Sweatshirt', 'src': 'mh05-white_main_1.jpg', 'color': 'Green', 'size': 'XS', 'qty': 17}, {'name': 'Ajax Full-Zip Sweatshirt', 'src': 'mh12-green_main_1.jpg', 'color': 'Green', 'size': 'XS', 'qty': 37}]
+2024-12-13 03:01:58,266 - Recorded item: ('Antonia Racer Tank', 'wt08-black_back_1.jpg', 'XL', 'Yellow', 76, 34.0) not found in cart properly.
+2024-12-13 03:01:58,266 - Recorded item: ('Bella Tank', 'wt01-blue_back_1.jpg', 'XS', 'Black', 38, 29.0) not found in cart properly.
+2024-12-13 03:01:58,266 - Recorded item: ('Leah Yoga Top', 'wt05-purple_back_2.jpg', 'L', 'Orange', 64, 39.0) not found in cart properly.
+2024-12-13 03:01:58,266 - Recorded item: ('Maya Tunic', 'wt07-green_back_1.jpg', 'M', 'White', 11, 29.0) not found in cart properly.
+2024-12-13 03:01:58,266 - Recorded item: ('Grayson Crewneck Sweatshirt', 'mh11-white_back_1.jpg', 'S', 'Orange', 31, 64.0) not found in cart properly.
+2024-12-13 03:01:58,274 - Recorded item: ('Hollister Backyard Sweatshirt', 'mh05-white_back_1.jpg', 'XS', 'Green', 17, 52.0) not found in cart properly.
+2024-12-13 03:01:58,274 - Round 2 error
+2024-12-13 03:01:59,398 - Round 3: Using seed 1734030119
+2024-12-13 03:01:59,398 - Adding products 2 times.
+2024-12-13 03:02:02,911 - Adding 3 products.
+2024-12-13 03:02:06,118 - Added product: Miko Pullover Hoodie, Size: S, Color: Purple, Quantity: 45, Price: 69.0
+2024-12-13 03:02:10,106 - Added product: Ariel Roll Sleeve Sweatshirt, Size: XL, Color: Red, Quantity: 54, Price: 39.0
+2024-12-13 03:02:13,437 - Added product: Ariel Roll Sleeve Sweatshirt, Size: XS, Color: Purple, Quantity: 75, Price: 39.0
+2024-12-13 03:02:18,393 - Adding 2 products.
+2024-12-13 03:02:20,997 - Added product: Elisa EverCool\u2122 Tee, Size: XL, Color: Red, Quantity: 50, Price: 29.0
+2024-12-13 03:02:25,043 - Added product: Juliana Short-Sleeve Tee, Size: XS, Color: Black, Quantity: 100, Price: 42.0
+2024-12-13 03:02:29,904 - Shopping cart content: [{'name': 'Miko Pullover Hoodie', 'src': 'wh04-blue_main_1.jpg', 'color': 'Purple', 'size': 'S', 'qty': 45}, {'name': 'Ariel Roll Sleeve Sweatshirt', 'src': 'wh09-purple_main_1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 54}, {'name': 'Ariel Roll Sleeve Sweatshirt', 'src': 'wh09-purple_main_1.jpg', 'color': 'Purple', 'size': 'XS', 'qty': 75}, {'name': 'Elisa EverCool\u2122 Tee', 'src': 'ws06-purple_main_2.jpg', 'color': 'Red', 'size': 'XL', 'qty': 50}, {'name': 'Juliana Short-Sleeve Tee', 'src': 'ws07-black_main_1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 100}]
+2024-12-13 03:02:29,904 - Recorded item: ('Miko Pullover Hoodie', 'wh04-blue_back_1.jpg', 'S', 'Purple', 45, 69.0) not found in cart properly.
+2024-12-13 03:02:29,904 - Recorded item: ('Ariel Roll Sleeve Sweatshirt', 'wh09-purple_back_1.jpg', 'XL', 'Red', 54, 39.0) not found in cart properly.
+2024-12-13 03:02:29,904 - Recorded item: ('Elisa EverCool\u2122 Tee', 'ws06-purple_back_2.jpg', 'XL', 'Red', 50, 29.0) not found in cart properly.
+2024-12-13 03:02:29,904 - Round 3 error
+2024-12-13 03:02:31,014 - Round 4: Using seed 1734030151
+2024-12-13 03:02:31,014 - Adding products 3 times.
+2024-12-13 03:02:34,112 - Adding 2 products.
+2024-12-13 03:02:37,165 - Added product: Augusta Pullover Jacket, Size: L, Color: Blue, Quantity: 24, Price: 57.0
+2024-12-13 03:02:40,992 - Added product: Jade Yoga Jacket, Size: XS, Color: Blue, Quantity: 72, Price: 32.0
+2024-12-13 03:02:45,991 - Adding 1 products.
+2024-12-13 03:02:48,510 - Added product: Atomic Endurance Running Tee (Crew-Neck), Size: M, Color: Red, Quantity: 42, Price: 29.0
+2024-12-13 03:02:51,054 - Adding 2 products.
+2024-12-13 03:02:51,996 - Added product: Jade Yoga Jacket, Size: M, Color: Blue, Quantity: 95, Price: 32.0
+2024-12-13 03:02:56,260 - Added product: Olivia 1/4 Zip Light Jacket, Size: XL, Color: Black, Quantity: 81, Price: 77.0
+2024-12-13 03:03:01,004 - Shopping cart content: [{'name': 'Augusta Pullover Jacket', 'src': 'wj03-red_main_2.jpg', 'color': 'Blue', 'size': 'L', 'qty': 24}, {'name': 'Jade Yoga Jacket', 'src': 'wj09-green_main_1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 72}, {'name': 'Atomic Endurance Running Tee (Crew-Neck)', 'src': 'ms12-red_main_1.jpg', 'color': 'Red', 'size': 'M', 'qty': 42}, {'name': 'Jade Yoga Jacket', 'src': 'wj09-green_main_1.jpg', 'color': 'Blue', 'size': 'M', 'qty': 95}, {'name': 'Olivia 1/4 Zip Light Jacket', 'src': 'wj12-blue_main_1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 81}]
+2024-12-13 03:03:01,004 - Recorded item: ('Augusta Pullover Jacket', 'wj03-red_back_2.jpg', 'L', 'Blue', 24, 57.0) not found in cart properly.
+2024-12-13 03:03:01,004 - Recorded item: ('Jade Yoga Jacket', 'wj09-blue_main_1.jpg', 'XS', 'Blue', 72, 32.0) not found in cart properly.
+2024-12-13 03:03:01,004 - Recorded item: ('Jade Yoga Jacket', 'wj09-blue_main_1.jpg', 'M', 'Blue', 95, 32.0) not found in cart properly.
+2024-12-13 03:03:01,004 - Recorded item: ('Olivia 1/4 Zip Light Jacket', 'wj12-black_main_1.jpg', 'XL', 'Black', 81, 77.0) not found in cart properly.
+2024-12-13 03:03:01,004 - Round 4 error
+2024-12-13 03:03:02,195 - Round 5: Using seed 1734030182
+2024-12-13 03:03:02,195 - Adding products 3 times.
+2024-12-13 03:03:03,024 - Adding 1 products.
+2024-12-13 03:03:05,440 - Added product: Proteus Fitness Jackshirt, Size: S, Color: Blue, Quantity: 57, Price: 45.0
+2024-12-13 03:03:07,920 - Adding 2 products.
+2024-12-13 03:03:10,812 - Added product: Mars HeatTech\u2122 Pullover, Size: XL, Color: Red, Quantity: 65, Price: 66.0
+2024-12-13 03:03:14,920 - Added product: Proteus Fitness Jackshirt, Size: XS, Color: Blue, Quantity: 88, Price: 45.0
+2024-12-13 03:03:17,384 - Adding 2 products.
+2024-12-13 03:03:20,407 - Added product: Lando Gym Jacket, Size: S, Color: Green, Quantity: 47, Price: 99.0
+2024-12-13 03:03:24,977 - Added product: Taurus Elements Shell, Size: XL, Color: Blue, Quantity: 70, Price: 65.0
+2024-12-13 03:03:30,178 - Shopping cart content: [{'name': 'Proteus Fitness Jackshirt', 'src': 'mj12-orange_main_1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 57}, {'name': 'Mars HeatTech\u2122 Pullover', 'src': 'mj10-red_main_1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 65}, {'name': 'Proteus Fitness Jackshirt', 'src': 'mj12-orange_main_1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 88}, {'name': 'Lando Gym Jacket', 'src': 'mj08-gray_main_1.jpg', 'color': 'Green', 'size': 'S', 'qty': 47}, {'name': 'Taurus Elements Shell', 'src': 'mj09-yellow_main_2.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 70}]
+2024-12-13 03:03:30,179 - Recorded item: ('Proteus Fitness Jackshirt', 'mj12-orange_back_1.jpg', 'S', 'Blue', 57, 45.0) not found in cart properly.
+2024-12-13 03:03:30,179 - Recorded item: ('Proteus Fitness Jackshirt', 'mj12-blue_main_1.jpg', 'XS', 'Blue', 88, 45.0) not found in cart properly.
+2024-12-13 03:03:30,179 - Recorded item: ('Lando Gym Jacket', 'mj08-gray_back_1.jpg', 'S', 'Green', 47, 99.0) not found in cart properly.
+2024-12-13 03:03:30,179 - Recorded item: ('Taurus Elements Shell', 'mj09-yellow_back_2.jpg', 'XL', 'Blue', 70, 65.0) not found in cart properly.
+2024-12-13 03:03:30,179 - Round 5 error
+2024-12-13 03:03:31,391 - Round 6: Using seed 1734030211
+2024-12-13 03:03:31,391 - Adding products 3 times.
+2024-12-13 03:03:34,821 - Adding 3 products.
+2024-12-13 03:03:36,000 - Added product: Argus All-Weather Tank, Size: XS, Color: Gray, Quantity: 54, Price: 22.0
+2024-12-13 03:03:39,840 - Added product: Cassius Sparring Tank, Size: S, Color: Blue, Quantity: 49, Price: 18.0
+2024-12-13 03:03:44,293 - Added product: Erikssen CoolTech\u2122 Fitness Tank, Size: S, Color: Gray, Quantity: 89, Price: 29.0
+2024-12-13 03:03:46,814 - Adding 2 products.
+2024-12-13 03:03:48,962 - Added product: Desiree Fitness Tee, Size: XL, Color: Yellow, Quantity: 8, Price: 24.0
+2024-12-13 03:03:53,668 - Added product: Gwyn Endurance Tee, Size: M, Color: Black, Quantity: 74, Price: 24.0
+2024-12-13 03:03:56,602 - Adding 3 products.
+2024-12-13 03:03:59,490 - Added product: Hera Pullover Hoodie, Size: XS, Color: Green, Quantity: 50, Price: 48.0
+2024-12-13 03:04:02,760 - Added product: Ariel Roll Sleeve Sweatshirt, Size: XS, Color: Green, Quantity: 95, Price: 39.0
+2024-12-13 03:04:06,172 - Added product: Miko Pullover Hoodie, Size: S, Color: Blue, Quantity: 66, Price: 69.0
+2024-12-13 03:04:12,235 - Shopping cart content: [{'name': 'Argus All-Weather Tank', 'src': 'mt07-gray_main_1.jpg', 'color': 'Gray', 'size': 'XS', 'qty': 54}, {'name': 'Cassius Sparring Tank', 'src': 'mt12-blue_main_1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 49}, {'name': 'Erikssen CoolTech\u2122 Fitness Tank', 'src': 'mt01-red_main_1.jpg', 'color': 'Gray', 'size': 'S', 'qty': 89}, {'name': 'Desiree Fitness Tee', 'src': 'ws05-black_main_1.jpg', 'color': 'Yellow', 'size': 'XL', 'qty': 8}, {'name': 'Gwyn Endurance Tee', 'src': 'ws01-black_main_1.jpg', 'color': 'Black', 'size': 'M', 'qty': 74}, {'name': 'Hera Pullover Hoodie', 'src': 'wh02-blue_main_2.jpg', 'color': 'Green', 'size': 'XS', 'qty': 50}, {'name': 'Ariel Roll Sleeve Sweatshirt', 'src': 'wh09-purple_main_1.jpg', 'color': 'Green', 'size': 'XS', 'qty': 95}, {'name': 'Miko Pullover Hoodie', 'src': 'wh04-blue_main_1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 66}]
+2024-12-13 03:04:12,235 - Recorded item: ('Erikssen CoolTech\u2122 Fitness Tank', 'mt01-red_back_1.jpg', 'S', 'Gray', 89, 29.0) not found in cart properly.
+2024-12-13 03:04:12,235 - Recorded item: ('Desiree Fitness Tee', 'ws05-yellow_main_1.jpg', 'XL', 'Yellow', 8, 24.0) not found in cart properly.
+2024-12-13 03:04:12,235 - Recorded item: ('Hera Pullover Hoodie', 'wh02-blue_back_2.jpg', 'XS', 'Green', 50, 48.0) not found in cart properly.
+2024-12-13 03:04:12,235 - Recorded item: ('Ariel Roll Sleeve Sweatshirt', 'wh09-green_main_1.jpg', 'XS', 'Green', 95, 39.0) not found in cart properly.
+2024-12-13 03:04:12,248 - Round 6 error
+2024-12-13 03:04:13,307 - Round 7: Using seed 1734030253
+2024-12-13 03:04:13,307 - Adding products 2 times.
+2024-12-13 03:04:14,170 - Adding 2 products.
+2024-12-13 03:04:16,037 - Added product: Jupiter All-Weather Trainer, Size: XS, Color: Blue, Quantity: 31, Price: 56.99
+2024-12-13 03:04:18,431 - Added product: Taurus Elements Shell, Size: M, Color: Yellow, Quantity: 98, Price: 65.0
+2024-12-13 03:04:20,843 - Adding 1 products.
+2024-12-13 03:04:21,792 - Added product: Ajax Full-Zip Sweatshirt, Size: L, Color: Green, Quantity: 25, Price: 69.0
+2024-12-13 03:04:26,338 - Shopping cart content: [{'name': 'Jupiter All-Weather Trainer', 'src': 'mj06-blue_main_1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 31}, {'name': 'Taurus Elements Shell', 'src': 'mj09-yellow_main_2.jpg', 'color': 'Yellow', 'size': 'M', 'qty': 98}, {'name': 'Ajax Full-Zip Sweatshirt', 'src': 'mh12-green_main_1.jpg', 'color': 'Green', 'size': 'L', 'qty': 25}]
+2024-12-13 03:04:26,338 - Recorded item: ('Taurus Elements Shell', 'mj09-yellow_back_2.jpg', 'M', 'Yellow', 98, 65.0) not found in cart properly.
+2024-12-13 03:04:26,338 - Round 7 error
+2024-12-13 03:04:27,434 - Round 8: Using seed 1734030267
+2024-12-13 03:04:27,434 - Adding products 2 times.
+2024-12-13 03:04:28,241 - Adding 2 products.
+2024-12-13 03:04:30,970 - Added product: Eos V-Neck Hoodie, Size: XL, Color: Green, Quantity: 30, Price: 54.0
+2024-12-13 03:04:35,393 - Added product: Mona Pullover Hoodlie, Size: XS, Color: Green, Quantity: 83, Price: 57.0
+2024-12-13 03:04:37,684 - Adding 3 products.
+2024-12-13 03:04:40,324 - Added product: Breathe-Easy Tank, Size: XS, Color: Purple, Quantity: 93, Price: 34.0
+2024-12-13 03:04:43,120 - Added product: Bella Tank, Size: XS, Color: Blue, Quantity: 44, Price: 29.0
+2024-12-13 03:04:47,167 - Added product: Prima Compete Bra Top, Size: S, Color: Purple, Quantity: 58, Price: 24.0
+2024-12-13 03:04:52,456 - Shopping cart content: [{'name': 'Eos V-Neck Hoodie', 'src': 'wh11-blue_main_1.jpg', 'color': 'Green', 'size': 'XL', 'qty': 30}, {'name': 'Mona Pullover Hoodlie', 'src': 'wh01-green_main_1.jpg', 'color': 'Green', 'size': 'XS', 'qty': 83}, {'name': 'Breathe-Easy Tank', 'src': 'wt09-white_main_1.jpg', 'color': 'Purple', 'size': 'XS', 'qty': 93}, {'name': 'Bella Tank', 'src': 'wt01-blue_main_1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 44}, {'name': 'Prima Compete Bra Top', 'src': 'wb04-blue_main_2.jpg', 'color': 'Purple', 'size': 'S', 'qty': 58}]
+2024-12-13 03:04:52,456 - Recorded item: ('Eos V-Neck Hoodie', 'wh11-blue_back_1.jpg', 'XL', 'Green', 30, 54.0) not found in cart properly.
+2024-12-13 03:04:52,456 - Recorded item: ('Breathe-Easy Tank', 'wt09-white_back_1.jpg', 'XS', 'Purple', 93, 34.0) not found in cart properly.
+2024-12-13 03:04:52,456 - Recorded item: ('Prima Compete Bra Top', 'wb04-blue_back_2.jpg', 'S', 'Purple', 58, 24.0) not found in cart properly.
+2024-12-13 03:04:52,456 - Round 8 error
+2024-12-13 03:04:53,609 - Round 9: Using seed 1734030293
+2024-12-13 03:04:53,609 - Adding products 3 times.
+2024-12-13 03:04:54,409 - Adding 3 products.
+2024-12-13 03:04:57,286 - Added product: Bruno Compete Hoodie, Size: L, Color: Green, Quantity: 50, Price: 63.0
+2024-12-13 03:05:01,275 - Added product: Frankie Sweatshirt, Size: S, Color: Green, Quantity: 27, Price: 60.0
+2024-12-13 03:05:03,881 - Added product: Ajax Full-Zip Sweatshirt, Size: S, Color: Green, Quantity: 56, Price: 69.0
+2024-12-13 03:05:06,504 - Adding 2 products.
+2024-12-13 03:05:09,250 - Added product: Neve Studio Dance Jacket, Size: XS, Color: Black, Quantity: 51, Price: 69.0
+2024-12-13 03:05:12,861 - Added product: Nadia Elements Shell, Size: M, Color: Yellow, Quantity: 84, Price: 69.0
+2024-12-13 03:05:15,516 - Adding 3 products.
+2024-12-13 03:05:16,468 - Added product: Nadia Elements Shell, Size: S, Color: Yellow, Quantity: 90, Price: 69.0
+2024-12-13 03:05:20,583 - Added product: Ingrid Running Jacket, Size: S, Color: Orange, Quantity: 97, Price: 84.0
+2024-12-13 03:05:24,005 - Added product: Ingrid Running Jacket, Size: XL, Color: Red, Quantity: 56, Price: 84.0
+2024-12-13 03:05:29,804 - Shopping cart content: [{'name': 'Bruno Compete Hoodie', 'src': 'mh03-black_main_1.jpg', 'color': 'Green', 'size': 'L', 'qty': 50}, {'name': 'Frankie Sweatshirt', 'src': 'mh04-green_main_1.jpg', 'color': 'Green', 'size': 'S', 'qty': 27}, {'name': 'Ajax Full-Zip Sweatshirt', 'src': 'mh12-green_main_1.jpg', 'color': 'Green', 'size': 'S', 'qty': 56}, {'name': 'Neve Studio Dance Jacket', 'src': 'wj11-blue_main_1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 51}, {'name': 'Nadia Elements Shell', 'src': 'wj10-yellow_main_2.jpg', 'color': 'Yellow', 'size': 'M', 'qty': 84}, {'name': 'Nadia Elements Shell', 'src': 'wj10-yellow_main_2.jpg', 'color': 'Yellow', 'size': 'S', 'qty': 90}, {'name': 'Ingrid Running Jacket', 'src': 'wj04-white_main_1.jpg', 'color': 'Orange', 'size': 'S', 'qty': 97}, {'name': 'Ingrid Running Jacket', 'src': 'wj04-white_main_1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 56}]
+2024-12-13 03:05:29,804 - Recorded item: ('Bruno Compete Hoodie', 'mh03-black_back_1.jpg', 'L', 'Green', 50, 63.0) not found in cart properly.
+2024-12-13 03:05:29,804 - Recorded item: ('Neve Studio Dance Jacket', 'wj11-blue_back_1.jpg', 'XS', 'Black', 51, 69.0) not found in cart properly.
+2024-12-13 03:05:29,804 - Recorded item: ('Nadia Elements Shell', 'wj10-yellow_back_2.jpg', 'M', 'Yellow', 84, 69.0) not found in cart properly.
+2024-12-13 03:05:29,804 - Recorded item: ('Nadia Elements Shell', 'wj10-yellow_main_1.jpg', 'S', 'Yellow', 90, 69.0) not found in cart properly.
+2024-12-13 03:05:29,804 - Recorded item: ('Ingrid Running Jacket', 'wj04-orange_main_1.jpg', 'S', 'Orange', 97, 84.0) not found in cart properly.
+2024-12-13 03:05:29,808 - Recorded item: ('Ingrid Running Jacket', 'wj04-white_back_1.jpg', 'XL', 'Red', 56, 84.0) not found in cart properly.
+2024-12-13 03:05:29,808 - Round 9 error
+2024-12-13 03:05:30,977 - Round 10: Using seed 1734030330
+2024-12-13 03:05:30,977 - Adding products 1 times.
+2024-12-13 03:05:31,818 - Adding 2 products.
+2024-12-13 03:05:32,967 - Added product: Mars HeatTech\u2122 Pullover, Size: M, Color: Black, Quantity: 56, Price: 66.0
+2024-12-13 03:05:37,442 - Added product: Orion Two-Tone Fitted Jacket, Size: M, Color: Red, Quantity: 76, Price: 72.0
+2024-12-13 03:05:44,468 - Shopping cart content: [{'name': 'Mars HeatTech\u2122 Pullover', 'src': 'mj10-red_main_1.jpg', 'color': 'Black', 'size': 'M', 'qty': 56}, {'name': 'Orion Two-Tone Fitted Jacket', 'src': 'mj07-red_main_1.jpg', 'color': 'Red', 'size': 'M', 'qty': 76}]
+2024-12-13 03:05:44,468 - Recorded item: ('Mars HeatTech\u2122 Pullover', 'mj10-black_main_1.jpg', 'M', 'Black', 56, 66.0) not found in cart properly.
+2024-12-13 03:05:44,468 - Round 10 error
+2024-12-13 03:05:45,625 - Round 11: Using seed 1734030345
+2024-12-13 03:05:45,625 - Adding products 3 times.
+2024-12-13 03:05:46,540 - Adding 3 products.
+2024-12-13 03:05:47,596 - Added product: Ariel Roll Sleeve Sweatshirt, Size: M, Color: Red, Quantity: 89, Price: 39.0
+2024-12-13 03:05:51,436 - Added product: Miko Pullover Hoodie, Size: XL, Color: Blue, Quantity: 67, Price: 69.0
+2024-12-13 03:05:58,540 - Added product: Circe Hooded Ice Fleece, Size: L, Color: Purple, Quantity: 74, Price: 68.0
+2024-12-13 03:06:02,619 - Adding 3 products.
+2024-12-13 03:06:03,714 - Added product: Miko Pullover Hoodie, Size: XS, Color: Purple, Quantity: 98, Price: 69.0
+2024-12-13 03:06:08,814 - Added product: Cassia Funnel Sweatshirt, Size: S, Color: Orange, Quantity: 7, Price: 48.0
+2024-12-13 03:06:13,143 - Added product: Daphne Full-Zip Hoodie, Size: S, Color: Purple, Quantity: 72, Price: 59.0
+2024-12-13 03:06:17,681 - Adding 3 products.
+2024-12-13 03:06:19,055 - Added product: Daphne Full-Zip Hoodie, Size: XL, Color: Purple, Quantity: 37, Price: 59.0
+2024-12-13 03:06:24,879 - Added product: Lucia Cross-Fit Bra, Size: S, Color: Orange, Quantity: 67, Price: 39.0
+2024-12-13 03:06:30,336 - Added product: Nona Fitness Tank, Size: S, Color: Blue, Quantity: 59, Price: 39.0
+2024-12-13 03:06:38,134 - Shopping cart content: [{'name': 'Ariel Roll Sleeve Sweatshirt', 'src': 'wh09-purple_main_1.jpg', 'color': 'Red', 'size': 'M', 'qty': 89}, {'name': 'Miko Pullover Hoodie', 'src': 'wh04-blue_main_1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 67}, {'name': 'Circe Hooded Ice Fleece', 'src': 'wh12-gray_main_1.jpg', 'color': 'Purple', 'size': 'L', 'qty': 74}, {'name': 'Miko Pullover Hoodie', 'src': 'wh04-blue_main_1.jpg', 'color': 'Purple', 'size': 'XS', 'qty': 98}, {'name': 'Cassia Funnel Sweatshirt', 'src': 'wh08-white_main_1.jpg', 'color': 'Orange', 'size': 'S', 'qty': 7}, {'name': 'Daphne Full-Zip Hoodie', 'src': 'wh06-purple_main_1.jpg', 'color': 'Purple', 'size': 'S', 'qty': 72}, {'name': 'Daphne Full-Zip Hoodie', 'src': 'wh06-purple_main_1.jpg', 'color': 'Purple', 'size': 'XL', 'qty': 37}, {'name': 'Lucia Cross-Fit Bra', 'src': 'wb05-black_main_1.jpg', 'color': 'Orange', 'size': 'S', 'qty': 67}, {'name': 'Nona Fitness Tank', 'src': 'wt04-blue_main_1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 59}]
+2024-12-13 03:06:38,134 - Recorded item: ('Ariel Roll Sleeve Sweatshirt', 'wh09-red_main_1.jpg', 'M', 'Red', 89, 39.0) not found in cart properly.
+2024-12-13 03:06:38,134 - Recorded item: ('Circe Hooded Ice Fleece', 'wh12-gray_back_1.jpg', 'L', 'Purple', 74, 68.0) not found in cart properly.
+2024-12-13 03:06:38,135 - Recorded item: ('Miko Pullover Hoodie', 'wh04-purple_main_1.jpg', 'XS', 'Purple', 98, 69.0) not found in cart properly.
+2024-12-13 03:06:38,135 - Recorded item: ('Cassia Funnel Sweatshirt', 'wh08-white_back_1.jpg', 'S', 'Orange', 7, 48.0) not found in cart properly.
+2024-12-13 03:06:38,135 - Recorded item: ('Lucia Cross-Fit Bra', 'wb05-black_back_1.jpg', 'S', 'Orange', 67, 39.0) not found in cart properly.
+2024-12-13 03:06:38,135 - Round 11 error
+2024-12-13 03:06:39,398 - Round 12: Using seed 1734030399
+2024-12-13 03:06:39,398 - Adding products 3 times.
+2024-12-13 03:06:40,290 - Adding 2 products.
+2024-12-13 03:06:41,417 - Added product: Nadia Elements Shell, Size: M, Color: Yellow, Quantity: 98, Price: 69.0
+2024-12-13 03:06:44,334 - Added product: Augusta Pullover Jacket, Size: L, Color: Red, Quantity: 75, Price: 57.0
+2024-12-13 03:06:47,010 - Adding 3 products.
+2024-12-13 03:06:48,968 - Added product: Karissa V-Neck Tee, Size: XS, Color: Red, Quantity: 100, Price: 32.0
+2024-12-13 03:06:52,497 - Added product: Diva Gym Tee, Size: S, Color: Green, Quantity: 20, Price: 32.0
+2024-12-13 03:06:55,644 - Added product: Desiree Fitness Tee, Size: XS, Color: Orange, Quantity: 10, Price: 24.0
+2024-12-13 03:06:58,308 - Adding 2 products.
+2024-12-13 03:07:00,464 - Added product: Radiant Tee, Size: XL, Color: Orange, Quantity: 77, Price: 22.0
+2024-12-13 03:07:05,813 - Added product: Layla Tee, Size: L, Color: Red, Quantity: 87, Price: 29.0
+2024-12-13 03:07:11,520 - Shopping cart content: [{'name': 'Nadia Elements Shell', 'src': 'wj10-yellow_main_2.jpg', 'color': 'Yellow', 'size': 'M', 'qty': 98}, {'name': 'Augusta Pullover Jacket', 'src': 'wj03-red_main_2.jpg', 'color': 'Red', 'size': 'L', 'qty': 75}, {'name': 'Karissa V-Neck Tee', 'src': 'ws10-red_main_1.jpg', 'color': 'Red', 'size': 'XS', 'qty': 100}, {'name': 'Diva Gym Tee', 'src': 'ws11-yellow_main_1.jpg', 'color': 'Green', 'size': 'S', 'qty': 20}, {'name': 'Desiree Fitness Tee', 'src': 'ws05-black_main_1.jpg', 'color': 'Orange', 'size': 'XS', 'qty': 10}, {'name': 'Radiant Tee', 'src': 'ws12-orange_main_2.jpg', 'color': 'Orange', 'size': 'XL', 'qty': 77}, {'name': 'Layla Tee', 'src': 'ws04-green_main_1.jpg', 'color': 'Red', 'size': 'L', 'qty': 87}]
+2024-12-13 03:07:11,520 - Recorded item: ('Nadia Elements Shell', 'wj10-yellow_main_1.jpg', 'M', 'Yellow', 98, 69.0) not found in cart properly.
+2024-12-13 03:07:11,520 - Recorded item: ('Diva Gym Tee', 'ws11-yellow_back_1.jpg', 'S', 'Green', 20, 32.0) not found in cart properly.
+2024-12-13 03:07:11,520 - Recorded item: ('Desiree Fitness Tee', 'ws05-black_back_1.jpg', 'XS', 'Orange', 10, 24.0) not found in cart properly.
+2024-12-13 03:07:11,521 - Recorded item: ('Layla Tee', 'ws04-green_back_1.jpg', 'L', 'Red', 87, 29.0) not found in cart properly.
+2024-12-13 03:07:11,521 - Round 12 error
+2024-12-13 03:07:12,793 - Round 13: Using seed 1734030432
+2024-12-13 03:07:12,793 - Adding products 3 times.
+2024-12-13 03:07:13,650 - Adding 3 products.
+2024-12-13 03:07:16,103 - Added product: Ryker LumaTech\u2122 Tee (Crew-neck), Size: XS, Color: Red, Quantity: 14, Price: 32.0
+2024-12-13 03:07:19,578 - Added product: Ryker LumaTech\u2122 Tee (V-neck), Size: M, Color: Blue, Quantity: 43, Price: 28.0
+2024-12-13 03:07:23,623 - Added product: Aero Daily Fitness Tee, Size: XS, Color: Yellow, Quantity: 26, Price: 24.0
+2024-12-13 03:07:26,303 - Adding 2 products.
+2024-12-13 03:07:27,448 - Added product: Kenobi Trail Jacket, Size: S, Color: Blue, Quantity: 8, Price: 47.0
+2024-12-13 03:07:30,407 - Added product: Hyperion Elements Jacket, Size: XL, Color: Orange, Quantity: 77, Price: 51.0
+2024-12-13 03:07:33,051 - Adding 2 products.
+2024-12-13 03:07:36,203 - Added product: Gobi HeatTec\xae Tee, Size: M, Color: Red, Quantity: 17, Price: 29.0
+2024-12-13 03:07:39,665 - Added product: Atomic Endurance Running Tee (Crew-Neck), Size: XL, Color: Red, Quantity: 31, Price: 29.0
+2024-12-13 03:07:45,168 - Shopping cart content: [{'name': 'Ryker LumaTech\u2122 Tee (Crew-neck)', 'src': 'ms09-blue_main_1.jpg', 'color': 'Red', 'size': 'XS', 'qty': 14}, {'name': 'Ryker LumaTech\u2122 Tee (V-neck)', 'src': 'ms02-gray_main_1.jpg', 'color': 'Blue', 'size': 'M', 'qty': 43}, {'name': 'Aero Daily Fitness Tee', 'src': 'ms01-blue_main_1.jpg', 'color': 'Yellow', 'size': 'XS', 'qty': 26}, {'name': 'Kenobi Trail Jacket', 'src': 'mj04-black_main_1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 8}, {'name': 'Hyperion Elements Jacket', 'src': 'mj02-green_main_1.jpg', 'color': 'Orange', 'size': 'XL', 'qty': 77}, {'name': 'Gobi HeatTec\xae Tee', 'src': 'ms04-orange_main_1.jpg', 'color': 'Red', 'size': 'M', 'qty': 17}, {'name': 'Atomic Endurance Running Tee (Crew-Neck)', 'src': 'ms12-red_main_1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 31}]
+2024-12-13 03:07:45,168 - Recorded item: ('Ryker LumaTech\u2122 Tee (Crew-neck)', 'ms09-blue_back_1.jpg', 'XS', 'Red', 14, 32.0) not found in cart properly.
+2024-12-13 03:07:45,168 - Recorded item: ('Ryker LumaTech\u2122 Tee (V-neck)', 'ms02-gray_back_1.jpg', 'M', 'Blue', 43, 28.0) not found in cart properly.
+2024-12-13 03:07:45,168 - Recorded item: ('Aero Daily Fitness Tee', 'ms01-blue_back_1.jpg', 'XS', 'Yellow', 26, 24.0) not found in cart properly.
+2024-12-13 03:07:45,168 - Recorded item: ('Kenobi Trail Jacket', 'mj04-blue_main_1.jpg', 'S', 'Blue', 8, 47.0) not found in cart properly.
+2024-12-13 03:07:45,168 - Recorded item: ('Hyperion Elements Jacket', 'mj02-green_back_1.jpg', 'XL', 'Orange', 77, 51.0) not found in cart properly.
+2024-12-13 03:07:45,170 - Recorded item: ('Gobi HeatTec\xae Tee', 'ms04-orange_back_1.jpg', 'M', 'Red', 17, 29.0) not found in cart properly.
+2024-12-13 03:07:45,170 - Round 13 error
+2024-12-13 03:07:46,406 - Round 14: Using seed 1734030466
+2024-12-13 03:07:46,406 - Adding products 1 times.
+2024-12-13 03:07:47,204 - Adding 3 products.
+2024-12-13 03:07:48,997 - Added product: Stark Fundamental Hoodie, Size: S, Color: Purple, Quantity: 93, Price: 42.0
+2024-12-13 03:07:51,516 - Added product: Frankie Sweatshirt, Size: M, Color: Green, Quantity: 75, Price: 60.0
+2024-12-13 03:07:54,378 - Added product: Hollister Backyard Sweatshirt, Size: L, Color: Green, Quantity: 23, Price: 52.0
+2024-12-13 03:07:57,194 - Shopping cart content: [{'name': 'Stark Fundamental Hoodie', 'src': 'mh06-blue_main_1.jpg', 'color': 'Purple', 'size': 'S', 'qty': 93}, {'name': 'Frankie Sweatshirt', 'src': 'mh04-green_main_1.jpg', 'color': 'Green', 'size': 'M', 'qty': 75}, {'name': 'Hollister Backyard Sweatshirt', 'src': 'mh05-white_main_1.jpg', 'color': 'Green', 'size': 'L', 'qty': 23}]
+2024-12-13 03:07:57,194 - Recorded item: ('Stark Fundamental Hoodie', 'mh06-blue_back_1.jpg', 'S', 'Purple', 93, 42.0) not found in cart properly.
+2024-12-13 03:07:57,194 - Recorded item: ('Hollister Backyard Sweatshirt', 'mh05-green_main_1.jpg', 'L', 'Green', 23, 52.0) not found in cart properly.
+2024-12-13 03:07:57,194 - Round 14 error
+2024-12-13 03:07:58,358 - Round 15: Using seed 1734030478
+2024-12-13 03:07:58,358 - Adding products 2 times.
+2024-12-13 03:07:59,211 - Adding 1 products.
+2024-12-13 03:08:01,539 - Added product: Helios EverCool\u2122 Tee, Size: XS, Color: Purple, Quantity: 88, Price: 24.0
+2024-12-13 03:08:04,008 - Adding 2 products.
+2024-12-13 03:08:05,040 - Added product: Mars HeatTech\u2122 Pullover, Size: M, Color: Black, Quantity: 90, Price: 66.0
+2024-12-13 03:08:09,900 - Added product: Typhon Performance Fleece-lined Jacket, Size: M, Color: Green, Quantity: 49, Price: 60.0
+2024-12-13 03:08:14,357 - Shopping cart content: [{'name': 'Helios EverCool\u2122 Tee', 'src': 'ms05-blue_main_1.jpg', 'color': 'Purple', 'size': 'XS', 'qty': 88}, {'name': 'Mars HeatTech\u2122 Pullover', 'src': 'mj10-red_main_1.jpg', 'color': 'Black', 'size': 'M', 'qty': 90}, {'name': 'Typhon Performance Fleece-lined Jacket', 'src': 'mj11-black_main_1.jpg', 'color': 'Green', 'size': 'M', 'qty': 49}]
+2024-12-13 03:08:14,357 - Recorded item: ('Helios EverCool\u2122 Tee', 'ms05-blue_back_1.jpg', 'XS', 'Purple', 88, 24.0) not found in cart properly.
+2024-12-13 03:08:14,357 - Recorded item: ('Mars HeatTech\u2122 Pullover', 'mj10-black_main_1.jpg', 'M', 'Black', 90, 66.0) not found in cart properly.
+2024-12-13 03:08:14,357 - Recorded item: ('Typhon Performance Fleece-lined Jacket', 'mj11-black_back_1.jpg', 'M', 'Green', 49, 60.0) not found in cart properly.
+2024-12-13 03:08:14,357 - Round 15 error
+2024-12-13 03:08:15,523 - Round 16: Using seed 1734030495
+2024-12-13 03:08:15,523 - Adding products 1 times.
+2024-12-13 03:08:16,338 - Adding 1 products.
+2024-12-13 03:08:17,357 - Added product: Cassia Funnel Sweatshirt, Size: M, Color: White, Quantity: 28, Price: 48.0
+2024-12-13 04:02:49,804 - Round 1: Using seed 1734033769
+2024-12-13 04:02:49,804 - Adding products 1 times.
+2024-12-13 04:02:51,395 - Adding 2 products.
+2024-12-13 04:02:53,702 - Added product: Stark Fundamental Hoodie, Size: L, Color: Blue, Quantity: 4, Price: 42.0
+2024-12-13 04:02:57,937 - Added product: Mach Street Sweatshirt, Size: M, Color: Blue, Quantity: 53, Price: 62.0
+2024-12-13 04:03:03,858 - Shopping cart content: [{'name': 'Stark Fundamental Hoodie', 'src': 'mh06-blue1.jpg', 'color': 'Blue', 'size': 'L', 'qty': 4}, {'name': 'Mach Street Sweatshirt', 'src': 'mh10-blue1.jpg', 'color': 'Blue', 'size': 'M', 'qty': 53}]
+2024-12-13 04:03:03,858 - Round 1 success, total covered 0 boundary value
+2024-12-13 04:03:05,085 - Round 2: Using seed 1734033785
+2024-12-13 04:03:05,085 - Adding products 3 times.
+2024-12-13 04:03:06,376 - Adding 1 products.
+2024-12-13 04:03:07,859 - Added product: Atomic Endurance Running Tee (Crew-Neck), Size: XL, Color: Blue, Quantity: 5, Price: 29.0
+2024-12-13 04:03:18,967 - Error finding element by XPath '//*[@id="ui-id-13"]': Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-13"]"}
+  (Session info: chrome=131.0.6778.109); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A1126CB5+28821]
+	(No symbol) [0x00007FF7A1093840]
+	(No symbol) [0x00007FF7A0F3578A]
+	(No symbol) [0x00007FF7A0F891BE]
+	(No symbol) [0x00007FF7A0F894AC]
+	(No symbol) [0x00007FF7A0FD2647]
+	(No symbol) [0x00007FF7A0FAF33F]
+	(No symbol) [0x00007FF7A0FCF412]
+	(No symbol) [0x00007FF7A0FAF0A3]
+	(No symbol) [0x00007FF7A0F7A778]
+	(No symbol) [0x00007FF7A0F7B8E1]
+	GetHandleVerifier [0x00007FF7A145FCAD+3408013]
+	GetHandleVerifier [0x00007FF7A147741F+3504127]
+	GetHandleVerifier [0x00007FF7A146B5FD+3455453]
+	GetHandleVerifier [0x00007FF7A11EBDBB+835995]
+	(No symbol) [0x00007FF7A109EB5F]
+	(No symbol) [0x00007FF7A109A814]
+	(No symbol) [0x00007FF7A109A9AD]
+	(No symbol) [0x00007FF7A108A199]
+	BaseThreadInitThunk [0x00007FFEBA92259D+29]
+	RtlUserThreadStart [0x00007FFEBC5EAF38+40]
+
+2024-12-13 04:03:28,990 - Error finding element by XPath '//*[@id="ui-id-12"]': Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ui-id-12"]"}
+  (Session info: chrome=131.0.6778.109); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A1126CB5+28821]
+	(No symbol) [0x00007FF7A1093840]
+	(No symbol) [0x00007FF7A0F3578A]
+	(No symbol) [0x00007FF7A0F891BE]
+	(No symbol) [0x00007FF7A0F894AC]
+	(No symbol) [0x00007FF7A0FD2647]
+	(No symbol) [0x00007FF7A0FAF33F]
+	(No symbol) [0x00007FF7A0FCF412]
+	(No symbol) [0x00007FF7A0FAF0A3]
+	(No symbol) [0x00007FF7A0F7A778]
+	(No symbol) [0x00007FF7A0F7B8E1]
+	GetHandleVerifier [0x00007FF7A145FCAD+3408013]
+	GetHandleVerifier [0x00007FF7A147741F+3504127]
+	GetHandleVerifier [0x00007FF7A146B5FD+3455453]
+	GetHandleVerifier [0x00007FF7A11EBDBB+835995]
+	(No symbol) [0x00007FF7A109EB5F]
+	(No symbol) [0x00007FF7A109A814]
+	(No symbol) [0x00007FF7A109A9AD]
+	(No symbol) [0x00007FF7A108A199]
+	BaseThreadInitThunk [0x00007FFEBA92259D+29]
+	RtlUserThreadStart [0x00007FFEBC5EAF38+40]
+
+2024-12-13 04:03:59,212 - Round 1: Using seed 1734033839
+2024-12-13 04:03:59,213 - Adding products 2 times.
+2024-12-13 04:04:00,530 - Adding 3 products.
+2024-12-13 04:04:02,718 - Added product: Orion Two-Tone Fitted Jacket, Size: S, Color: Yellow, Quantity: 50, Price: 72.0
+2024-12-13 04:04:05,042 - Added product: Kenobi Trail Jacket, Size: XS, Color: Blue, Quantity: 56, Price: 47.0
+2024-12-13 04:04:08,624 - Added product: Beaumont Summit Kit, Size: XL, Color: Yellow, Quantity: 49, Price: 42.0
+2024-12-13 04:04:10,809 - Adding 2 products.
+2024-12-13 04:04:11,677 - Added product: Orion Two-Tone Fitted Jacket, Size: XL, Color: Red, Quantity: 89, Price: 72.0
+2024-12-13 04:04:15,358 - Added product: Primo Endurance Tank, Size: M, Color: Blue, Quantity: 90, Price: 29.0
+2024-12-13 04:04:20,474 - Shopping cart content: [{'name': 'Orion Two-Tone Fitted Jacket', 'src': 'mj07-red1.jpg', 'color': 'Yellow', 'size': 'S', 'qty': 50}, {'name': 'Kenobi Trail Jacket', 'src': 'mj04-black1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 56}, {'name': 'Beaumont Summit Kit', 'src': 'mj01-yellow1.jpg', 'color': 'Yellow', 'size': 'XL', 'qty': 49}, {'name': 'Orion Two-Tone Fitted Jacket', 'src': 'mj07-red1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 89}, {'name': 'Primo Endurance Tank', 'src': 'mt03-red1.jpg', 'color': 'Blue', 'size': 'M', 'qty': 90}]
+2024-12-13 04:04:20,474 - Recorded item: ('Orion Two-Tone Fitted Jacket', 'mj07-yellow1.jpg', 'S', 'Yellow', 50, 72.0) not found in cart properly.
+2024-12-13 04:04:20,475 - Round 1 error
+2024-12-13 04:04:21,511 - Round 2: Using seed 1734033861
+2024-12-13 04:04:21,512 - Adding products 3 times.
+2024-12-13 04:04:22,174 - Adding 3 products.
+2024-12-13 04:04:23,176 - Added product: Nona Fitness Tank, Size: XL, Color: Blue, Quantity: 69, Price: 39.0
+2024-12-13 04:04:25,529 - Added product: Lucia Cross-Fit Bra, Size: XS, Color: Black, Quantity: 37, Price: 39.0
+2024-12-13 04:04:28,946 - Added product: Celeste Sports Bra, Size: L, Color: Yellow, Quantity: 75, Price: 39.0
+2024-12-13 04:04:31,157 - Adding 3 products.
+2024-12-13 04:04:33,237 - Added product: Zoe Tank, Size: S, Color: Green, Quantity: 98, Price: 29.0
+2024-12-13 04:04:36,228 - Added product: Bella Tank, Size: XL, Color: Blue, Quantity: 9, Price: 29.0
+2024-12-13 04:04:38,473 - Added product: Nona Fitness Tank, Size: M, Color: Red, Quantity: 20, Price: 39.0
+2024-12-13 04:04:40,792 - Adding 2 products.
+2024-12-13 04:04:43,251 - Added product: Helena Hooded Fleece, Size: S, Color: Blue, Quantity: 63, Price: 55.0
+2024-12-13 04:04:47,607 - Added product: Autumn Pullie, Size: XS, Color: Red, Quantity: 69, Price: 57.0
+2024-12-13 04:04:52,563 - Shopping cart content: [{'name': 'Nona Fitness Tank', 'src': 'wt04-blue1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 69}, {'name': 'Lucia Cross-Fit Bra', 'src': 'wb05-black1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 37}, {'name': 'Celeste Sports Bra', 'src': 'wb03-green1.jpg', 'color': 'Yellow', 'size': 'L', 'qty': 75}, {'name': 'Zoe Tank', 'src': 'wt02-orange1.jpg', 'color': 'Green', 'size': 'S', 'qty': 98}, {'name': 'Bella Tank', 'src': 'wt01-blue1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 9}, {'name': 'Nona Fitness Tank', 'src': 'wt04-blue1.jpg', 'color': 'Red', 'size': 'M', 'qty': 20}, {'name': 'Helena Hooded Fleece', 'src': 'wh10-gray1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 63}, {'name': 'Autumn Pullie', 'src': 'wh03-red1.jpg', 'color': 'Red', 'size': 'XS', 'qty': 69}]
+2024-12-13 04:04:52,563 - Round 2 success, total covered 3 boundary value
+2024-12-13 04:04:53,595 - Round 3: Using seed 1734033893
+2024-12-13 04:04:53,595 - Adding products 2 times.
+2024-12-13 04:04:54,262 - Adding 3 products.
+2024-12-13 04:04:56,232 - Added product: Abominable Hoodie, Size: M, Color: Blue, Quantity: 53, Price: 69.0
+2024-12-13 04:04:58,409 - Added product: Abominable Hoodie, Size: M, Color: Red, Quantity: 74, Price: 69.0
+2024-12-13 04:05:00,891 - Added product: Stark Fundamental Hoodie, Size: XS, Color: Blue, Quantity: 59, Price: 42.0
+2024-12-13 04:05:03,171 - Adding 1 products.
+2024-12-13 04:05:04,186 - Added product: Bruno Compete Hoodie, Size: XL, Color: Blue, Quantity: 21, Price: 63.0
+2024-12-13 04:05:08,186 - Shopping cart content: [{'name': 'Abominable Hoodie', 'src': 'mh09-blue1.jpg', 'color': 'Blue', 'size': 'M', 'qty': 53}, {'name': 'Abominable Hoodie', 'src': 'mh09-blue1.jpg', 'color': 'Red', 'size': 'M', 'qty': 74}, {'name': 'Stark Fundamental Hoodie', 'src': 'mh06-blue1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 59}, {'name': 'Bruno Compete Hoodie', 'src': 'mh03-black1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 21}]
+2024-12-13 04:05:08,186 - Round 3 success, total covered 6 boundary value
+2024-12-13 04:05:09,233 - Round 4: Using seed 1734033909
+2024-12-13 04:05:09,233 - Adding products 2 times.
+2024-12-13 04:05:09,894 - Adding 3 products.
+2024-12-13 04:05:10,975 - Added product: Helios EverCool\u2122 Tee, Size: XS, Color: Blue, Quantity: 54, Price: 24.0
+2024-12-13 04:05:14,234 - Added product: Deion Long-Sleeve EverCool\u2122 Tee, Size: XL, Color: Black, Quantity: 2, Price: 39.0
+2024-12-13 04:05:17,312 - Added product: Balboa Persistence Tee, Size: M, Color: Orange, Quantity: 3, Price: 29.0
+2024-12-13 04:05:19,535 - Adding 3 products.
+2024-12-13 04:05:21,563 - Added product: Hero Hoodie, Size: L, Color: Green, Quantity: 89, Price: 54.0
+2024-12-13 04:05:24,196 - Added product: Abominable Hoodie, Size: S, Color: Green, Quantity: 97, Price: 69.0
+2024-12-13 04:05:26,839 - Added product: Hero Hoodie, Size: M, Color: Black, Quantity: 76, Price: 54.0
+2024-12-13 04:05:31,555 - Shopping cart content: [{'name': 'Helios EverCool\u2122 Tee', 'src': 'ms05-blue1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 54}, {'name': 'Deion Long-Sleeve EverCool\u2122 Tee', 'src': 'ms07-green1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 2}, {'name': 'Balboa Persistence Tee', 'src': 'ms03-black1.jpg', 'color': 'Orange', 'size': 'M', 'qty': 3}, {'name': 'Hero Hoodie', 'src': 'mh07-gray2.jpg', 'color': 'Green', 'size': 'L', 'qty': 89}, {'name': 'Abominable Hoodie', 'src': 'mh09-blue1.jpg', 'color': 'Green', 'size': 'S', 'qty': 97}, {'name': 'Hero Hoodie', 'src': 'mh07-gray2.jpg', 'color': 'Black', 'size': 'M', 'qty': 76}]
+2024-12-13 04:05:31,555 - Recorded item: ('Hero Hoodie', 'mh07-black2.jpg', 'M', 'Black', 76, 54.0) not found in cart properly.
+2024-12-13 04:05:31,555 - Round 4 error
+2024-12-13 04:05:32,600 - Round 5: Using seed 1734033932
+2024-12-13 04:05:32,600 - Adding products 3 times.
+2024-12-13 04:05:33,268 - Adding 1 products.
+2024-12-13 04:05:35,235 - Added product: Nora Practice Tank, Size: XL, Color: Purple, Quantity: 35, Price: 39.0
+2024-12-13 04:05:37,863 - Adding 3 products.
+2024-12-13 04:05:39,005 - Added product: Iris Workout Top, Size: M, Color: Blue, Quantity: 50, Price: 29.0
+2024-12-13 04:05:42,131 - Added product: Tiffany Fitness Tee, Size: L, Color: Blue, Quantity: 6, Price: 28.0
+2024-12-13 04:05:44,857 - Added product: Juliana Short-Sleeve Tee, Size: XL, Color: White, Quantity: 71, Price: 42.0
+2024-12-13 04:05:47,154 - Adding 3 products.
+2024-12-13 04:05:48,074 - Added product: Bruno Compete Hoodie, Size: XL, Color: Green, Quantity: 82, Price: 63.0
+2024-12-13 04:05:51,118 - Added product: Grayson Crewneck Sweatshirt, Size: XS, Color: Orange, Quantity: 72, Price: 64.0
+2024-12-13 04:05:54,609 - Added product: Oslo Trek Hoodie, Size: M, Color: Purple, Quantity: 62, Price: 42.0
+2024-12-13 04:05:59,484 - Shopping cart content: [{'name': 'Nora Practice Tank', 'src': 'wt03-red1.jpg', 'color': 'Purple', 'size': 'XL', 'qty': 35}, {'name': 'Iris Workout Top', 'src': 'ws03-red1.jpg', 'color': 'Blue', 'size': 'M', 'qty': 50}, {'name': 'Tiffany Fitness Tee', 'src': 'ws09-blue1.jpg', 'color': 'Blue', 'size': 'L', 'qty': 6}, {'name': 'Juliana Short-Sleeve Tee', 'src': 'ws07-black1.jpg', 'color': 'White', 'size': 'XL', 'qty': 71}, {'name': 'Bruno Compete Hoodie', 'src': 'mh03-black1.jpg', 'color': 'Green', 'size': 'XL', 'qty': 82}, {'name': 'Grayson Crewneck Sweatshirt', 'src': 'mh11-white1.jpg', 'color': 'Orange', 'size': 'XS', 'qty': 72}, {'name': 'Oslo Trek Hoodie', 'src': 'mh08-brown1.jpg', 'color': 'Purple', 'size': 'M', 'qty': 62}]
+2024-12-13 04:05:59,484 - Recorded item: ('Grayson Crewneck Sweatshirt', 'mh11-orange1.jpg', 'XS', 'Orange', 72, 64.0) not found in cart properly.
+2024-12-13 04:05:59,484 - Round 5 error
+2024-12-13 04:06:00,460 - Round 6: Using seed 1734033960
+2024-12-13 04:06:00,460 - Adding products 1 times.
+2024-12-13 04:06:01,127 - Adding 2 products.
+2024-12-13 04:06:02,114 - Added product: Daphne Full-Zip Hoodie, Size: L, Color: Purple, Quantity: 60, Price: 59.0
+2024-12-13 04:06:05,543 - Added product: Selene Yoga Hoodie, Size: M, Color: Purple, Quantity: 89, Price: 42.0
+2024-12-13 04:06:09,054 - Shopping cart content: [{'name': 'Daphne Full-Zip Hoodie', 'src': 'wh06-purple1.jpg', 'color': 'Purple', 'size': 'L', 'qty': 60}, {'name': 'Selene Yoga Hoodie', 'src': 'wh05-white1.jpg', 'color': 'Purple', 'size': 'M', 'qty': 89}]
+2024-12-13 04:06:09,054 - Round 6 success, total covered 15 boundary value
+2024-12-13 04:06:10,110 - Round 7: Using seed 1734033970
+2024-12-13 04:06:10,111 - Adding products 2 times.
+2024-12-13 04:06:10,753 - Adding 1 products.
+2024-12-13 04:06:11,553 - Added product: Juliana Short-Sleeve Tee, Size: S, Color: Black, Quantity: 8, Price: 42.0
+2024-12-13 04:06:13,478 - Adding 1 products.
+2024-12-13 04:06:14,374 - Added product: Iris Workout Top, Size: L, Color: Red, Quantity: 24, Price: 29.0
+2024-12-13 04:06:17,729 - Shopping cart content: [{'name': 'Juliana Short-Sleeve Tee', 'src': 'ws07-black1.jpg', 'color': 'Black', 'size': 'S', 'qty': 8}, {'name': 'Iris Workout Top', 'src': 'ws03-red1.jpg', 'color': 'Red', 'size': 'L', 'qty': 24}]
+2024-12-13 04:06:17,729 - Round 7 success, total covered 16 boundary value
+2024-12-13 04:06:18,713 - Round 8: Using seed 1734033978
+2024-12-13 04:06:18,713 - Adding products 3 times.
+2024-12-13 04:06:19,369 - Adding 2 products.
+2024-12-13 04:06:20,358 - Added product: Augusta Pullover Jacket, Size: M, Color: Red, Quantity: 37, Price: 57.0
+2024-12-13 04:06:22,409 - Added product: Augusta Pullover Jacket, Size: S, Color: Red, Quantity: 68, Price: 57.0
+2024-12-13 04:06:24,449 - Adding 3 products.
+2024-12-13 04:06:25,319 - Added product: Augusta Pullover Jacket, Size: S, Color: Blue, Quantity: 7, Price: 57.0
+2024-12-13 04:06:27,773 - Added product: Grayson Crewneck Sweatshirt, Size: M, Color: Orange, Quantity: 62, Price: 64.0
+2024-12-13 04:06:30,007 - Added product: Frankie Sweatshirt, Size: L, Color: Green, Quantity: 30, Price: 60.0
+2024-12-13 04:06:32,421 - Adding 2 products.
+2024-12-13 04:06:33,510 - Added product: Layla Tee, Size: M, Color: Blue, Quantity: 70, Price: 29.0
+2024-12-13 04:06:35,873 - Added product: Radiant Tee, Size: S, Color: Blue, Quantity: 39, Price: 22.0
+2024-12-13 04:06:40,460 - Shopping cart content: [{'name': 'Augusta Pullover Jacket', 'src': 'wj03-red2.jpg', 'color': 'Red', 'size': 'M', 'qty': 37}, {'name': 'Augusta Pullover Jacket', 'src': 'wj03-red2.jpg', 'color': 'Red', 'size': 'S', 'qty': 68}, {'name': 'Augusta Pullover Jacket', 'src': 'wj03-red2.jpg', 'color': 'Blue', 'size': 'S', 'qty': 7}, {'name': 'Grayson Crewneck Sweatshirt', 'src': 'mh11-white1.jpg', 'color': 'Orange', 'size': 'M', 'qty': 62}, {'name': 'Frankie Sweatshirt', 'src': 'mh04-green1.jpg', 'color': 'Green', 'size': 'L', 'qty': 30}, {'name': 'Layla Tee', 'src': 'ws04-green1.jpg', 'color': 'Blue', 'size': 'M', 'qty': 70}, {'name': 'Radiant Tee', 'src': 'ws12-orange2.jpg', 'color': 'Blue', 'size': 'S', 'qty': 39}]
+2024-12-13 04:06:40,460 - Recorded item: ('Augusta Pullover Jacket', 'wj03-red1.jpg', 'S', 'Red', 68, 57.0) not found in cart properly.
+2024-12-13 04:06:40,460 - Recorded item: ('Augusta Pullover Jacket', 'wj03-blue1.jpg', 'S', 'Blue', 7, 57.0) not found in cart properly.
+2024-12-13 04:06:40,460 - Recorded item: ('Grayson Crewneck Sweatshirt', 'mh11-orange1.jpg', 'M', 'Orange', 62, 64.0) not found in cart properly.
+2024-12-13 04:06:40,460 - Round 8 error
+2024-12-13 04:06:41,454 - Round 9: Using seed 1734034001
+2024-12-13 04:06:41,455 - Adding products 2 times.
+2024-12-13 04:06:42,102 - Adding 1 products.
+2024-12-13 04:06:43,196 - Added product: Miko Pullover Hoodie, Size: XS, Color: Blue, Quantity: 50, Price: 69.0
+2024-12-13 04:06:45,124 - Adding 2 products.
+2024-12-13 04:06:46,043 - Added product: Kenobi Trail Jacket, Size: S, Color: Purple, Quantity: 7, Price: 47.0
+2024-12-13 04:06:48,014 - Added product: Orion Two-Tone Fitted Jacket, Size: XL, Color: Red, Quantity: 86, Price: 72.0
+2024-12-13 04:06:51,922 - Shopping cart content: [{'name': 'Miko Pullover Hoodie', 'src': 'wh04-blue1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 50}, {'name': 'Kenobi Trail Jacket', 'src': 'mj04-black1.jpg', 'color': 'Purple', 'size': 'S', 'qty': 7}, {'name': 'Orion Two-Tone Fitted Jacket', 'src': 'mj07-red1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 86}]
+2024-12-13 04:06:51,923 - Round 9 success, total covered 21 boundary value
+2024-12-13 04:06:52,945 - Round 10: Using seed 1734034012
+2024-12-13 04:06:52,946 - Adding products 2 times.
+2024-12-13 04:06:53,609 - Adding 1 products.
+2024-12-13 04:06:54,430 - Added product: Autumn Pullie, Size: M, Color: Green, Quantity: 87, Price: 57.0
+2024-12-13 04:06:56,343 - Adding 3 products.
+2024-12-13 04:06:57,446 - Added product: Ryker LumaTech\u2122 Tee (Crew-neck), Size: XL, Color: Black, Quantity: 5, Price: 32.0
+2024-12-13 04:06:59,977 - Added product: Ryker LumaTech\u2122 Tee (V-neck), Size: S, Color: Gray, Quantity: 77, Price: 28.0
+2024-12-13 04:07:02,374 - Added product: Helios EverCool\u2122 Tee, Size: L, Color: Black, Quantity: 16, Price: 24.0
+2024-12-13 04:07:06,371 - Shopping cart content: [{'name': 'Autumn Pullie', 'src': 'wh03-red1.jpg', 'color': 'Green', 'size': 'M', 'qty': 87}, {'name': 'Ryker LumaTech\u2122 Tee (Crew-neck)', 'src': 'ms09-blue1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 5}, {'name': 'Ryker LumaTech\u2122 Tee (V-neck)', 'src': 'ms02-gray1.jpg', 'color': 'Gray', 'size': 'S', 'qty': 77}, {'name': 'Helios EverCool\u2122 Tee', 'src': 'ms05-blue1.jpg', 'color': 'Black', 'size': 'L', 'qty': 16}]
+2024-12-13 04:07:06,371 - Recorded item: ('Autumn Pullie', 'wh03-green1.jpg', 'M', 'Green', 87, 57.0) not found in cart properly.
+2024-12-13 04:07:06,371 - Recorded item: ('Helios EverCool\u2122 Tee', 'ms05-black1.jpg', 'L', 'Black', 16, 24.0) not found in cart properly.
+2024-12-13 04:07:06,371 - Round 10 error
+2024-12-13 04:07:07,316 - Round 11: Using seed 1734034027
+2024-12-13 04:07:07,317 - Adding products 3 times.
+2024-12-13 04:07:07,974 - Adding 2 products.
+2024-12-13 04:07:08,897 - Added product: Celeste Sports Bra, Size: S, Color: Red, Quantity: 45, Price: 39.0
+2024-12-13 04:07:10,968 - Added product: Nora Practice Tank, Size: M, Color: Purple, Quantity: 66, Price: 39.0
+2024-12-13 04:07:13,029 - Adding 2 products.
+2024-12-13 04:07:14,024 - Added product: Hyperion Elements Jacket, Size: S, Color: Orange, Quantity: 7, Price: 51.0
+2024-12-13 04:07:16,479 - Added product: Orion Two-Tone Fitted Jacket, Size: S, Color: Red, Quantity: 30, Price: 72.0
+2024-12-13 04:07:18,803 - Adding 3 products.
+2024-12-13 04:07:19,882 - Added product: Atomic Endurance Running Tee (Crew-Neck), Size: S, Color: Blue, Quantity: 73, Price: 29.0
+2024-12-13 04:07:22,329 - Added product: Aero Daily Fitness Tee, Size: M, Color: Yellow, Quantity: 100, Price: 24.0
+2024-12-13 04:07:26,027 - Added product: Strike Endurance Tee, Size: XS, Color: Black, Quantity: 75, Price: 39.0
+2024-12-13 04:07:29,149 - Shopping cart content: [{'name': 'Celeste Sports Bra', 'src': 'wb03-green1.jpg', 'color': 'Red', 'size': 'S', 'qty': 45}, {'name': 'Nora Practice Tank', 'src': 'wt03-red1.jpg', 'color': 'Purple', 'size': 'M', 'qty': 66}, {'name': 'Hyperion Elements Jacket', 'src': 'mj02-green1.jpg', 'color': 'Orange', 'size': 'S', 'qty': 7}, {'name': 'Orion Two-Tone Fitted Jacket', 'src': 'mj07-red1.jpg', 'color': 'Red', 'size': 'S', 'qty': 30}, {'name': 'Atomic Endurance Running Tee (Crew-Neck)', 'src': 'ms12-red1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 73}, {'name': 'Aero Daily Fitness Tee', 'src': 'ms01-blue1.jpg', 'color': 'Yellow', 'size': 'M', 'qty': 100}, {'name': 'Strike Endurance Tee', 'src': 'ms08-black1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 75}]
+2024-12-13 04:07:29,149 - Recorded item: ('Nora Practice Tank', 'wt03-purple1.jpg', 'M', 'Purple', 66, 39.0) not found in cart properly.
+2024-12-13 04:07:29,149 - Round 11 error
+2024-12-13 04:07:30,149 - Round 12: Using seed 1734034050
+2024-12-13 04:07:30,149 - Adding products 1 times.
+2024-12-13 04:07:30,779 - Adding 1 products.
+2024-12-13 04:07:31,852 - Added product: Gwyn Endurance Tee, Size: XS, Color: Green, Quantity: 30, Price: 24.0
+2024-12-13 04:07:35,034 - Shopping cart content: [{'name': 'Gwyn Endurance Tee', 'src': 'ws01-black1.jpg', 'color': 'Green', 'size': 'XS', 'qty': 30}]
+2024-12-13 04:07:35,035 - Round 12 success, total covered 26 boundary value
+2024-12-13 04:07:35,982 - Round 13: Using seed 1734034055
+2024-12-13 04:07:35,982 - Adding products 1 times.
+2024-12-13 04:07:36,616 - Adding 2 products.
+2024-12-13 04:07:38,521 - Added product: Phoebe Zipper Sweatshirt, Size: XS, Color: Purple, Quantity: 91, Price: 59.0
+2024-12-13 04:07:41,038 - Added product: Selene Yoga Hoodie, Size: S, Color: Purple, Quantity: 87, Price: 42.0
+2024-12-13 04:07:44,579 - Shopping cart content: [{'name': 'Phoebe Zipper Sweatshirt', 'src': 'wh07-gray1.jpg', 'color': 'Purple', 'size': 'XS', 'qty': 91}, {'name': 'Selene Yoga Hoodie', 'src': 'wh05-white1.jpg', 'color': 'Purple', 'size': 'S', 'qty': 87}]
+2024-12-13 04:07:44,579 - Recorded item: ('Selene Yoga Hoodie', 'wh05-purple1.jpg', 'S', 'Purple', 87, 42.0) not found in cart properly.
+2024-12-13 04:07:44,579 - Round 13 error
+2024-12-13 04:07:45,527 - Round 14: Using seed 1734034065
+2024-12-13 04:07:45,527 - Adding products 3 times.
+2024-12-13 04:07:46,182 - Adding 2 products.
+2024-12-13 04:07:46,996 - Added product: Ryker LumaTech\u2122 Tee (Crew-neck), Size: XL, Color: Blue, Quantity: 26, Price: 32.0
+2024-12-13 04:07:49,194 - Added product: Deion Long-Sleeve EverCool\u2122 Tee, Size: S, Color: Black, Quantity: 14, Price: 39.0
+2024-12-13 04:07:51,236 - Adding 3 products.
+2024-12-13 04:07:52,352 - Added product: Lando Gym Jacket, Size: S, Color: Green, Quantity: 21, Price: 99.0
+2024-12-13 04:07:54,782 - Added product: Hyperion Elements Jacket, Size: XL, Color: Green, Quantity: 27, Price: 51.0
+2024-12-13 04:07:57,491 - Added product: Proteus Fitness Jackshirt, Size: S, Color: Orange, Quantity: 40, Price: 45.0
+2024-12-13 04:07:59,964 - Adding 2 products.
+2024-12-13 04:08:00,871 - Added product: Proteus Fitness Jackshirt, Size: M, Color: Orange, Quantity: 94, Price: 45.0
+2024-12-13 04:08:03,748 - Added product: Aero Daily Fitness Tee, Size: XL, Color: Brown, Quantity: 9, Price: 24.0
+2024-12-13 04:08:08,465 - Shopping cart content: [{'name': 'Ryker LumaTech\u2122 Tee (Crew-neck)', 'src': 'ms09-blue1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 26}, {'name': 'Deion Long-Sleeve EverCool\u2122 Tee', 'src': 'ms07-green1.jpg', 'color': 'Black', 'size': 'S', 'qty': 14}, {'name': 'Lando Gym Jacket', 'src': 'mj08-gray1.jpg', 'color': 'Green', 'size': 'S', 'qty': 21}, {'name': 'Hyperion Elements Jacket', 'src': 'mj02-green1.jpg', 'color': 'Green', 'size': 'XL', 'qty': 27}, {'name': 'Proteus Fitness Jackshirt', 'src': 'mj12-orange1.jpg', 'color': 'Orange', 'size': 'S', 'qty': 40}, {'name': 'Proteus Fitness Jackshirt', 'src': 'mj12-orange1.jpg', 'color': 'Orange', 'size': 'M', 'qty': 94}, {'name': 'Aero Daily Fitness Tee', 'src': 'ms01-blue1.jpg', 'color': 'Brown', 'size': 'XL', 'qty': 9}]
+2024-12-13 04:08:08,465 - Recorded item: ('Deion Long-Sleeve EverCool\u2122 Tee', 'ms07-black1.jpg', 'S', 'Black', 14, 39.0) not found in cart properly.
+2024-12-13 04:08:08,465 - Round 14 error
+2024-12-13 04:08:09,467 - Round 15: Using seed 1734034089
+2024-12-13 04:08:09,467 - Adding products 3 times.
+2024-12-13 04:08:10,128 - Adding 2 products.
+2024-12-13 04:08:10,958 - Added product: Primo Endurance Tank, Size: M, Color: Yellow, Quantity: 100, Price: 29.0
+2024-12-13 04:08:14,420 - Added product: Atlas Fitness Tank, Size: S, Color: Blue, Quantity: 44, Price: 18.0
+2024-12-13 04:08:16,549 - Adding 3 products.
+2024-12-13 04:08:17,565 - Added product: Cassius Sparring Tank, Size: XS, Color: Blue, Quantity: 90, Price: 18.0
+2024-12-13 04:08:19,900 - Added product: Primo Endurance Tank, Size: M, Color: Blue, Quantity: 41, Price: 29.0
+2024-12-13 04:08:21,957 - Added product: Primo Endurance Tank, Size: M, Color: Red, Quantity: 27, Price: 29.0
+2024-12-13 04:08:24,217 - Adding 3 products.
+2024-12-13 04:08:25,373 - Added product: Neve Studio Dance Jacket, Size: XS, Color: Black, Quantity: 84, Price: 69.0
+2024-12-13 04:08:29,157 - Added product: Josie Yoga Jacket, Size: XL, Color: Blue, Quantity: 28, Price: 56.25
+2024-12-13 04:08:33,405 - Added product: Riona Full Zip Jacket, Size: XL, Color: Green, Quantity: 27, Price: 60.0
+2024-12-13 04:08:38,067 - Shopping cart content: [{'name': 'Primo Endurance Tank', 'src': 'mt03-red1.jpg', 'color': 'Yellow', 'size': 'M', 'qty': 100}, {'name': 'Cassius Sparring Tank', 'src': 'mt12-blue1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 90}, {'name': 'Primo Endurance Tank', 'src': 'mt03-red1.jpg', 'color': 'Blue', 'size': 'M', 'qty': 41}, {'name': 'Primo Endurance Tank', 'src': 'mt03-red1.jpg', 'color': 'Red', 'size': 'M', 'qty': 27}, {'name': 'Neve Studio Dance Jacket', 'src': 'wj11-blue1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 84}, {'name': 'Josie Yoga Jacket', 'src': 'wj02-gray1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 28}, {'name': 'Riona Full Zip Jacket', 'src': 'wj05-brown1.jpg', 'color': 'Green', 'size': 'XL', 'qty': 27}]
+2024-12-13 04:08:38,067 - Recorded item: ('Atlas Fitness Tank', 'mt11-blue1.jpg', 'S', 'Blue', 44, 18.0) not found in cart properly.
+2024-12-13 04:08:38,067 - Recorded item: ('Primo Endurance Tank', 'mt03-blue1.jpg', 'M', 'Blue', 41, 29.0) not found in cart properly.
+2024-12-13 04:08:38,067 - Round 15 error
+2024-12-13 04:08:39,140 - Round 16: Using seed 1734034119
+2024-12-13 04:08:39,140 - Adding products 2 times.
+2024-12-13 04:08:39,784 - Adding 1 products.
+2024-12-13 04:08:41,742 - Added product: Jupiter All-Weather Trainer, Size: XS, Color: Blue, Quantity: 16, Price: 56.99
+2024-12-13 04:08:43,686 - Adding 1 products.
+2024-12-13 04:08:45,623 - Added product: Sparta Gym Tank, Size: M, Color: Green, Quantity: 4, Price: 29.0
+2024-12-13 04:08:49,194 - Shopping cart content: [{'name': 'Jupiter All-Weather Trainer', 'src': 'mj06-blue1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 16}, {'name': 'Sparta Gym Tank', 'src': 'mt08-green1.jpg', 'color': 'Green', 'size': 'M', 'qty': 4}]
+2024-12-13 04:08:49,194 - Round 16 success, total covered 39 boundary value
+2024-12-13 04:08:50,180 - Round 17: Using seed 1734034130
+2024-12-13 04:08:50,180 - Adding products 1 times.
+2024-12-13 04:08:50,821 - Adding 2 products.
+2024-12-13 04:08:51,640 - Added product: Jupiter All-Weather Trainer, Size: XL, Color: Blue, Quantity: 48, Price: 56.99
+2024-12-13 04:08:53,811 - Added product: Lando Gym Jacket, Size: M, Color: Gray, Quantity: 70, Price: 99.0
+2024-12-13 04:08:57,226 - Shopping cart content: [{'name': 'Jupiter All-Weather Trainer', 'src': 'mj06-blue1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 48}, {'name': 'Lando Gym Jacket', 'src': 'mj08-gray1.jpg', 'color': 'Gray', 'size': 'M', 'qty': 70}]
+2024-12-13 04:08:57,226 - Round 17 success, total covered 40 boundary value
+2024-12-13 04:08:58,208 - Round 18: Using seed 1734034138
+2024-12-13 04:08:58,208 - Adding products 1 times.
+2024-12-13 04:08:58,865 - Adding 3 products.
+2024-12-13 04:08:59,924 - Added product: Elisa EverCool\u2122 Tee, Size: M, Color: Purple, Quantity: 12, Price: 29.0
+2024-12-13 04:09:02,311 - Added product: Tiffany Fitness Tee, Size: XL, Color: White, Quantity: 65, Price: 28.0
+2024-12-13 04:09:04,308 - Added product: Radiant Tee, Size: S, Color: Purple, Quantity: 30, Price: 22.0
+2024-12-13 04:09:07,109 - Shopping cart content: [{'name': 'Elisa EverCool\u2122 Tee', 'src': 'ws06-purple2.jpg', 'color': 'Purple', 'size': 'M', 'qty': 12}, {'name': 'Tiffany Fitness Tee', 'src': 'ws09-blue1.jpg', 'color': 'White', 'size': 'XL', 'qty': 65}, {'name': 'Radiant Tee', 'src': 'ws12-orange2.jpg', 'color': 'Purple', 'size': 'S', 'qty': 30}]
+2024-12-13 04:09:07,109 - Round 18 success, total covered 41 boundary value
+2024-12-13 04:09:08,051 - Round 19: Using seed 1734034148
+2024-12-13 04:09:08,051 - Adding products 1 times.
+2024-12-13 04:09:08,681 - Adding 2 products.
+2024-12-13 04:09:09,495 - Added product: Strike Endurance Tee, Size: XS, Color: Red, Quantity: 18, Price: 39.0
+2024-12-13 04:09:10,982 - Added product: Helios EverCool\u2122 Tee, Size: XS, Color: Purple, Quantity: 40, Price: 24.0
+2024-12-13 04:09:14,327 - Shopping cart content: [{'name': 'Strike Endurance Tee', 'src': 'ms08-black1.jpg', 'color': 'Red', 'size': 'XS', 'qty': 18}, {'name': 'Helios EverCool\u2122 Tee', 'src': 'ms05-blue1.jpg', 'color': 'Purple', 'size': 'XS', 'qty': 40}]
+2024-12-13 04:09:14,327 - Round 19 success, total covered 42 boundary value
+2024-12-13 04:09:15,337 - Round 20: Using seed 1734034155
+2024-12-13 04:09:15,337 - Adding products 1 times.
+2024-12-13 04:09:15,993 - Adding 1 products.
+2024-12-13 04:09:17,879 - Added product: Rocco Gym Tank, Size: S, Color: Blue, Quantity: 12, Price: 24.0
+2024-12-13 04:09:21,528 - Shopping cart content: [{'name': 'Rocco Gym Tank', 'src': 'mt05-blue1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 12}]
+2024-12-13 04:09:21,528 - Round 20 success, total covered 42 boundary value
+2024-12-13 04:09:22,474 - Round 21: Using seed 1734034162
+2024-12-13 04:09:22,474 - Adding products 2 times.
+2024-12-13 04:09:23,707 - Adding 2 products.
+2024-12-13 04:09:25,562 - Added product: Antonia Racer Tank, Size: M, Color: Black, Quantity: 83, Price: 34.0
+2024-12-13 04:09:27,891 - Added product: Bella Tank, Size: S, Color: Blue, Quantity: 57, Price: 29.0
+2024-12-13 04:09:30,162 - Adding 2 products.
+2024-12-13 04:09:31,023 - Added product: Bruno Compete Hoodie, Size: S, Color: Blue, Quantity: 26, Price: 63.0
+2024-12-13 04:09:35,404 - Added product: Marco Lightweight Active Hoodie, Size: L, Color: Blue, Quantity: 99, Price: 74.0
+2024-12-13 04:09:39,544 - Shopping cart content: [{'name': 'Antonia Racer Tank', 'src': 'wt08-black1.jpg', 'color': 'Black', 'size': 'M', 'qty': 83}, {'name': 'Bella Tank', 'src': 'wt01-blue1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 57}, {'name': 'Bruno Compete Hoodie', 'src': 'mh03-black1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 26}, {'name': 'Marco Lightweight Active Hoodie', 'src': 'mh13-blue2.jpg', 'color': 'Blue', 'size': 'L', 'qty': 99}]
+2024-12-13 04:09:39,544 - Recorded item: ('Bruno Compete Hoodie', 'mh03-blue1.jpg', 'S', 'Blue', 26, 63.0) not found in cart properly.
+2024-12-13 04:09:39,544 - Round 21 error
+2024-12-13 04:09:40,589 - Round 22: Using seed 1734034180
+2024-12-13 04:09:40,589 - Adding products 3 times.
+2024-12-13 04:09:41,409 - Adding 1 products.
+2024-12-13 04:09:42,672 - Added product: Gobi HeatTec\xae Tee, Size: M, Color: Red, Quantity: 85, Price: 29.0
+2024-12-13 04:09:44,687 - Adding 3 products.
+2024-12-13 04:09:45,636 - Added product: Jupiter All-Weather Trainer, Size: M, Color: Purple, Quantity: 17, Price: 56.99
+2024-12-13 04:09:48,554 - Added product: Typhon Performance Fleece-lined Jacket, Size: L, Color: Black, Quantity: 8, Price: 60.0
+2024-12-13 04:09:51,685 - Added product: Mars HeatTech\u2122 Pullover, Size: XL, Color: Orange, Quantity: 74, Price: 66.0
+2024-12-13 04:09:54,192 - Adding 1 products.
+2024-12-13 04:09:55,433 - Added product: Circe Hooded Ice Fleece, Size: XS, Color: Green, Quantity: 30, Price: 68.0
+2024-12-13 04:09:59,991 - Shopping cart content: [{'name': 'Gobi HeatTec\xae Tee', 'src': 'ms04-orange1.jpg', 'color': 'Red', 'size': 'M', 'qty': 85}, {'name': 'Jupiter All-Weather Trainer', 'src': 'mj06-blue1.jpg', 'color': 'Purple', 'size': 'M', 'qty': 17}, {'name': 'Typhon Performance Fleece-lined Jacket', 'src': 'mj11-black1.jpg', 'color': 'Black', 'size': 'L', 'qty': 8}, {'name': 'Mars HeatTech\u2122 Pullover', 'src': 'mj10-red1.jpg', 'color': 'Orange', 'size': 'XL', 'qty': 74}, {'name': 'Circe Hooded Ice Fleece', 'src': 'wh12-gray1.jpg', 'color': 'Green', 'size': 'XS', 'qty': 30}]
+2024-12-13 04:09:59,991 - Round 22 success, total covered 47 boundary value
+2024-12-13 04:10:01,261 - Round 23: Using seed 1734034201
+2024-12-13 04:10:01,261 - Adding products 1 times.
+2024-12-13 04:10:02,143 - Adding 2 products.
+2024-12-13 04:10:04,378 - Added product: Tiberius Gym Tank, Size: XS, Color: Yellow, Quantity: 24, Price: 18.0
+2024-12-13 04:10:08,085 - Added product: Vulcan Weightlifting Tank, Size: L, Color: Black, Quantity: 94, Price: 28.0
+2024-12-13 04:10:11,762 - Shopping cart content: [{'name': 'Tiberius Gym Tank', 'src': 'mt10-yellow1.jpg', 'color': 'Yellow', 'size': 'XS', 'qty': 24}, {'name': 'Vulcan Weightlifting Tank', 'src': 'mt06-black1.jpg', 'color': 'Black', 'size': 'L', 'qty': 94}]
+2024-12-13 04:10:11,762 - Round 23 success, total covered 48 boundary value
+2024-12-13 04:10:12,928 - Round 24: Using seed 1734034212
+2024-12-13 04:10:12,928 - Adding products 3 times.
+2024-12-13 04:10:13,759 - Adding 2 products.
+2024-12-13 04:10:15,147 - Added product: Argus All-Weather Tank, Size: XS, Color: Gray, Quantity: 52, Price: 22.0
+2024-12-13 04:10:18,665 - Added product: Tristan Endurance Tank, Size: M, Color: Gray, Quantity: 26, Price: 29.0
+2024-12-13 04:10:20,878 - Adding 3 products.
+2024-12-13 04:10:21,722 - Added product: Orion Two-Tone Fitted Jacket, Size: L, Color: Yellow, Quantity: 36, Price: 72.0
+2024-12-13 04:10:24,318 - Added product: Mars HeatTech\u2122 Pullover, Size: XL, Color: Orange, Quantity: 45, Price: 66.0
+2024-12-13 04:10:27,034 - Added product: Lando Gym Jacket, Size: XS, Color: Green, Quantity: 11, Price: 99.0
+2024-12-13 04:10:29,577 - Adding 3 products.
+2024-12-13 04:10:30,845 - Added product: Cassia Funnel Sweatshirt, Size: XL, Color: Orange, Quantity: 44, Price: 48.0
+2024-12-13 04:10:34,081 - Added product: Eos V-Neck Hoodie, Size: XL, Color: Orange, Quantity: 20, Price: 54.0
+2024-12-13 04:10:37,207 - Added product: Selene Yoga Hoodie, Size: S, Color: Orange, Quantity: 76, Price: 42.0
+2024-12-13 04:10:42,321 - Shopping cart content: [{'name': 'Argus All-Weather Tank', 'src': 'mt07-gray1.jpg', 'color': 'Gray', 'size': 'XS', 'qty': 52}, {'name': 'Tristan Endurance Tank', 'src': 'mt02-white2.jpg', 'color': 'Gray', 'size': 'M', 'qty': 26}, {'name': 'Orion Two-Tone Fitted Jacket', 'src': 'mj07-red1.jpg', 'color': 'Yellow', 'size': 'L', 'qty': 36}, {'name': 'Mars HeatTech\u2122 Pullover', 'src': 'mj10-red1.jpg', 'color': 'Orange', 'size': 'XL', 'qty': 45}, {'name': 'Lando Gym Jacket', 'src': 'mj08-gray1.jpg', 'color': 'Green', 'size': 'XS', 'qty': 11}, {'name': 'Cassia Funnel Sweatshirt', 'src': 'wh08-white1.jpg', 'color': 'Orange', 'size': 'XL', 'qty': 44}, {'name': 'Eos V-Neck Hoodie', 'src': 'wh11-blue1.jpg', 'color': 'Orange', 'size': 'XL', 'qty': 20}, {'name': 'Selene Yoga Hoodie', 'src': 'wh05-white1.jpg', 'color': 'Orange', 'size': 'S', 'qty': 76}]
+2024-12-13 04:10:42,321 - Recorded item: ('Tristan Endurance Tank', 'mt02-white_sideb_2.jpg', 'M', 'Gray', 26, 29.0) not found in cart properly.
+2024-12-13 04:10:42,321 - Recorded item: ('Orion Two-Tone Fitted Jacket', 'mj07-yellow1.jpg', 'L', 'Yellow', 36, 72.0) not found in cart properly.
+2024-12-13 04:10:42,321 - Recorded item: ('Mars HeatTech\u2122 Pullover', 'mj10-orange1.jpg', 'XL', 'Orange', 45, 66.0) not found in cart properly.
+2024-12-13 04:10:42,321 - Recorded item: ('Lando Gym Jacket', 'mj08-green1.jpg', 'XS', 'Green', 11, 99.0) not found in cart properly.
+2024-12-13 04:10:42,322 - Recorded item: ('Selene Yoga Hoodie', 'wh05-orange1.jpg', 'S', 'Orange', 76, 42.0) not found in cart properly.
+2024-12-13 04:10:42,327 - Round 24 error
+2024-12-13 04:10:43,492 - Round 25: Using seed 1734034243
+2024-12-13 04:10:43,493 - Adding products 1 times.
+2024-12-13 04:10:44,306 - Adding 3 products.
+2024-12-13 04:10:46,043 - Added product: Ajax Full-Zip Sweatshirt, Size: XL, Color: Green, Quantity: 99, Price: 69.0
+2024-12-13 04:10:48,463 - Added product: Stark Fundamental Hoodie, Size: XL, Color: Purple, Quantity: 84, Price: 42.0
+2024-12-13 04:10:51,115 - Added product: Mach Street Sweatshirt, Size: XS, Color: Black, Quantity: 9, Price: 62.0
+2024-12-13 04:10:54,993 - Shopping cart content: [{'name': 'Ajax Full-Zip Sweatshirt', 'src': 'mh12-green1.jpg', 'color': 'Green', 'size': 'XL', 'qty': 99}, {'name': 'Stark Fundamental Hoodie', 'src': 'mh06-blue1.jpg', 'color': 'Purple', 'size': 'XL', 'qty': 84}, {'name': 'Mach Street Sweatshirt', 'src': 'mh10-blue1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 9}]
+2024-12-13 04:10:54,993 - Recorded item: ('Mach Street Sweatshirt', 'mh10-black1.jpg', 'XS', 'Black', 9, 62.0) not found in cart properly.
+2024-12-13 04:10:54,994 - Round 25 error
+2024-12-13 04:10:56,095 - Round 26: Using seed 1734034256
+2024-12-13 04:10:56,095 - Adding products 1 times.
+2024-12-13 04:10:56,911 - Adding 1 products.
+2024-12-13 04:10:58,023 - Added product: Marco Lightweight Active Hoodie, Size: L, Color: Lavender, Quantity: 86, Price: 74.0
+2024-12-13 04:11:01,412 - Shopping cart content: [{'name': 'Marco Lightweight Active Hoodie', 'src': 'mh13-blue2.jpg', 'color': 'Lavender', 'size': 'L', 'qty': 86}]
+2024-12-13 04:11:01,412 - Round 26 success, total covered 53 boundary value
+2024-12-13 04:11:02,551 - Round 27: Using seed 1734034262
+2024-12-13 04:11:02,551 - Adding products 1 times.
+2024-12-13 04:11:03,361 - Adding 3 products.
+2024-12-13 04:11:04,392 - Added product: Hero Hoodie, Size: L, Color: Gray, Quantity: 54, Price: 54.0
+2024-12-13 04:11:06,708 - Added product: Marco Lightweight Active Hoodie, Size: L, Color: Lavender, Quantity: 42, Price: 74.0
+2024-12-13 04:11:08,432 - Added product: Oslo Trek Hoodie, Size: M, Color: Red, Quantity: 83, Price: 42.0
+2024-12-13 04:11:11,286 - Shopping cart content: [{'name': 'Hero Hoodie', 'src': 'mh07-gray2.jpg', 'color': 'Gray', 'size': 'L', 'qty': 54}, {'name': 'Marco Lightweight Active Hoodie', 'src': 'mh13-blue2.jpg', 'color': 'Lavender', 'size': 'L', 'qty': 42}, {'name': 'Oslo Trek Hoodie', 'src': 'mh08-brown1.jpg', 'color': 'Red', 'size': 'M', 'qty': 83}]
+2024-12-13 04:11:11,287 - Recorded item: ('Marco Lightweight Active Hoodie', 'mh13-lavender2.jpg', 'L', 'Lavender', 42, 74.0) not found in cart properly.
+2024-12-13 04:11:11,287 - Round 27 error
+2024-12-13 04:11:12,362 - Round 28: Using seed 1734034272
+2024-12-13 04:11:12,362 - Adding products 1 times.
+2024-12-13 04:11:13,175 - Adding 3 products.
+2024-12-13 04:11:14,215 - Added product: Tiffany Fitness Tee, Size: XL, Color: Red, Quantity: 10, Price: 28.0
+2024-12-13 04:11:16,515 - Added product: Iris Workout Top, Size: XS, Color: Green, Quantity: 53, Price: 29.0
+2024-12-13 04:11:18,943 - Added product: Elisa EverCool\u2122 Tee, Size: S, Color: Red, Quantity: 71, Price: 29.0
+2024-12-13 04:11:22,913 - Shopping cart content: [{'name': 'Tiffany Fitness Tee', 'src': 'ws09-blue1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 10}, {'name': 'Iris Workout Top', 'src': 'ws03-red1.jpg', 'color': 'Green', 'size': 'XS', 'qty': 53}, {'name': 'Elisa EverCool\u2122 Tee', 'src': 'ws06-purple2.jpg', 'color': 'Red', 'size': 'S', 'qty': 71}]
+2024-12-13 04:11:22,913 - Round 28 success, total covered 54 boundary value
+2024-12-13 04:11:24,102 - Round 29: Using seed 1734034284
+2024-12-13 04:11:24,102 - Adding products 1 times.
+2024-12-13 04:11:24,925 - Adding 3 products.
+2024-12-13 04:11:25,927 - Added product: Ryker LumaTech\u2122 Tee (V-neck), Size: XL, Color: Black, Quantity: 90, Price: 28.0
+2024-12-13 04:11:28,863 - Added product: Gobi HeatTec\xae Tee, Size: XS, Color: Black, Quantity: 91, Price: 29.0
+2024-12-13 04:11:31,467 - Added product: Helios EverCool\u2122 Tee, Size: L, Color: Purple, Quantity: 9, Price: 24.0
+2024-12-13 04:11:35,396 - Shopping cart content: [{'name': 'Ryker LumaTech\u2122 Tee (V-neck)', 'src': 'ms02-gray1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 90}, {'name': 'Gobi HeatTec\xae Tee', 'src': 'ms04-orange1.jpg', 'color': 'Black', 'size': 'XS', 'qty': 91}, {'name': 'Helios EverCool\u2122 Tee', 'src': 'ms05-blue1.jpg', 'color': 'Purple', 'size': 'L', 'qty': 9}]
+2024-12-13 04:11:35,396 - Recorded item: ('Ryker LumaTech\u2122 Tee (V-neck)', 'ms02-black1.jpg', 'XL', 'Black', 90, 28.0) not found in cart properly.
+2024-12-13 04:11:35,396 - Recorded item: ('Gobi HeatTec\xae Tee', 'ms04-black1.jpg', 'XS', 'Black', 91, 29.0) not found in cart properly.
+2024-12-13 04:11:35,396 - Recorded item: ('Helios EverCool\u2122 Tee', 'ms05-purple1.jpg', 'L', 'Purple', 9, 24.0) not found in cart properly.
+2024-12-13 04:11:35,396 - Round 29 error
+2024-12-13 04:11:36,502 - Round 30: Using seed 1734034296
+2024-12-13 04:11:36,502 - Adding products 1 times.
+2024-12-13 04:11:37,325 - Adding 1 products.
+2024-12-13 04:11:39,560 - Added product: Montana Wind Jacket, Size: M, Color: Green, Quantity: 100, Price: 49.0
+2024-12-13 04:11:43,268 - Shopping cart content: [{'name': 'Montana Wind Jacket', 'src': 'mj03-black1.jpg', 'color': 'Green', 'size': 'M', 'qty': 100}]
+2024-12-13 04:11:43,268 - Round 30 success, total covered 55 boundary value
+2024-12-13 04:11:44,427 - Round 31: Using seed 1734034304
+2024-12-13 04:11:44,427 - Adding products 1 times.
+2024-12-13 04:11:45,298 - Adding 1 products.
+2024-12-13 04:11:46,417 - Added product: Radiant Tee, Size: S, Color: Purple, Quantity: 31, Price: 22.0
+2024-12-13 04:11:49,940 - Shopping cart content: [{'name': 'Radiant Tee', 'src': 'ws12-orange2.jpg', 'color': 'Purple', 'size': 'S', 'qty': 31}]
+2024-12-13 04:11:49,940 - Recorded item: ('Radiant Tee', 'ws12-purple1.jpg', 'S', 'Purple', 31, 22.0) not found in cart properly.
+2024-12-13 04:11:49,940 - Round 31 error
+2024-12-13 04:11:50,849 - Round 32: Using seed 1734034310
+2024-12-13 04:11:50,849 - Adding products 1 times.
+2024-12-13 04:11:51,643 - Adding 1 products.
+2024-12-13 04:11:52,638 - Added product: Hyperion Elements Jacket, Size: XL, Color: Red, Quantity: 18, Price: 51.0
+2024-12-13 04:11:56,085 - Shopping cart content: [{'name': 'Hyperion Elements Jacket', 'src': 'mj02-green1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 18}]
+2024-12-13 04:11:56,085 - Round 32 success, total covered 56 boundary value
+2024-12-13 04:11:57,020 - Round 33: Using seed 1734034317
+2024-12-13 04:11:57,021 - Adding products 1 times.
+2024-12-13 04:11:57,857 - Adding 1 products.
+2024-12-13 04:11:59,893 - Added product: Bruno Compete Hoodie, Size: M, Color: Blue, Quantity: 71, Price: 63.0
+2024-12-13 04:12:03,473 - Shopping cart content: [{'name': 'Bruno Compete Hoodie', 'src': 'mh03-black1.jpg', 'color': 'Blue', 'size': 'M', 'qty': 71}]
+2024-12-13 04:12:03,473 - Recorded item: ('Bruno Compete Hoodie', 'mh03-blue1.jpg', 'M', 'Blue', 71, 63.0) not found in cart properly.
+2024-12-13 04:12:03,473 - Round 33 error
+2024-12-13 04:12:04,962 - Round 34: Using seed 1734034324
+2024-12-13 04:12:04,962 - Adding products 3 times.
+2024-12-13 04:12:05,944 - Adding 1 products.
+2024-12-13 04:12:07,080 - Added product: Bruno Compete Hoodie, Size: L, Color: Black, Quantity: 72, Price: 63.0
+2024-12-13 04:12:09,073 - Adding 1 products.
+2024-12-13 04:12:11,540 - Added product: Juno Jacket, Size: S, Color: Blue, Quantity: 94, Price: 77.0
+2024-12-13 04:12:13,803 - Adding 1 products.
+2024-12-13 04:12:16,101 - Added product: Sinbad Fitness Tank, Size: XS, Color: Blue, Quantity: 97, Price: 29.0
+2024-12-13 04:12:20,065 - Shopping cart content: [{'name': 'Bruno Compete Hoodie', 'src': 'mh03-black1.jpg', 'color': 'Black', 'size': 'L', 'qty': 72}, {'name': 'Juno Jacket', 'src': 'wj06-purple1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 94}, {'name': 'Sinbad Fitness Tank', 'src': 'mt09-blue1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 97}]
+2024-12-13 04:12:20,065 - Round 34 success, total covered 58 boundary value
+2024-12-13 04:12:21,279 - Round 35: Using seed 1734034341
+2024-12-13 04:12:21,279 - Adding products 2 times.
+2024-12-13 04:12:22,271 - Adding 3 products.
+2024-12-13 04:12:23,822 - Added product: Karissa V-Neck Tee, Size: XS, Color: Red, Quantity: 90, Price: 32.0
+2024-12-13 04:12:26,231 - Added product: Gwyn Endurance Tee, Size: XL, Color: Green, Quantity: 74, Price: 24.0
+2024-12-13 04:12:28,893 - Added product: Karissa V-Neck Tee, Size: XS, Color: Yellow, Quantity: 54, Price: 32.0
+2024-12-13 04:12:31,041 - Adding 2 products.
+2024-12-13 04:12:31,970 - Added product: Autumn Pullie, Size: L, Color: Red, Quantity: 25, Price: 57.0
+2024-12-13 04:12:34,647 - Added product: Phoebe Zipper Sweatshirt, Size: XS, Color: Gray, Quantity: 31, Price: 59.0
+2024-12-13 04:12:38,969 - Shopping cart content: [{'name': 'Karissa V-Neck Tee', 'src': 'ws10-red1.jpg', 'color': 'Red', 'size': 'XS', 'qty': 90}, {'name': 'Gwyn Endurance Tee', 'src': 'ws01-black1.jpg', 'color': 'Green', 'size': 'XL', 'qty': 74}, {'name': 'Karissa V-Neck Tee', 'src': 'ws10-red1.jpg', 'color': 'Yellow', 'size': 'XS', 'qty': 54}, {'name': 'Autumn Pullie', 'src': 'wh03-red1.jpg', 'color': 'Red', 'size': 'L', 'qty': 25}, {'name': 'Phoebe Zipper Sweatshirt', 'src': 'wh07-gray1.jpg', 'color': 'Gray', 'size': 'XS', 'qty': 31}]
+2024-12-13 04:12:38,971 - Recorded item: ('Gwyn Endurance Tee', 'ws01-green1.jpg', 'XL', 'Green', 74, 24.0) not found in cart properly.
+2024-12-13 04:12:38,971 - Round 35 error
+2024-12-13 04:12:40,131 - Round 36: Using seed 1734034360
+2024-12-13 04:12:40,131 - Adding products 1 times.
+2024-12-13 04:12:40,968 - Adding 2 products.
+2024-12-13 04:12:42,339 - Added product: Diva Gym Tee, Size: XS, Color: Green, Quantity: 60, Price: 32.0
+2024-12-13 04:12:45,717 - Added product: Gabrielle Micro Sleeve Top, Size: S, Color: Red, Quantity: 85, Price: 28.0
+2024-12-13 04:12:49,440 - Shopping cart content: [{'name': 'Diva Gym Tee', 'src': 'ws11-yellow1.jpg', 'color': 'Green', 'size': 'XS', 'qty': 60}, {'name': 'Gabrielle Micro Sleeve Top', 'src': 'ws02-green1.jpg', 'color': 'Red', 'size': 'S', 'qty': 85}]
+2024-12-13 04:12:49,440 - Round 36 success, total covered 60 boundary value
+2024-12-13 04:12:50,390 - Round 37: Using seed 1734034370
+2024-12-13 04:12:50,390 - Adding products 3 times.
+2024-12-13 04:12:51,216 - Adding 1 products.
+2024-12-13 04:12:52,678 - Added product: Erikssen CoolTech\u2122 Fitness Tank, Size: L, Color: Red, Quantity: 25, Price: 29.0
+2024-12-13 04:12:54,665 - Adding 1 products.
+2024-12-13 04:12:56,051 - Added product: Maya Tunic, Size: XL, Color: Yellow, Quantity: 92, Price: 29.0
+2024-12-13 04:12:58,326 - Adding 1 products.
+2024-12-13 04:12:59,544 - Added product: Olivia 1/4 Zip Light Jacket, Size: XS, Color: Blue, Quantity: 56, Price: 77.0
+2024-12-13 04:13:03,565 - Shopping cart content: [{'name': 'Erikssen CoolTech\u2122 Fitness Tank', 'src': 'mt01-red1.jpg', 'color': 'Red', 'size': 'L', 'qty': 25}, {'name': 'Maya Tunic', 'src': 'wt07-green1.jpg', 'color': 'Yellow', 'size': 'XL', 'qty': 92}, {'name': 'Olivia 1/4 Zip Light Jacket', 'src': 'wj12-blue1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 56}]
+2024-12-13 04:13:03,565 - Round 37 success, total covered 62 boundary value
+2024-12-13 04:13:05,010 - Round 38: Using seed 1734034385
+2024-12-13 04:13:05,010 - Adding products 3 times.
+2024-12-13 04:13:05,843 - Adding 1 products.
+2024-12-13 04:13:07,064 - Added product: Vulcan Weightlifting Tank, Size: XL, Color: Black, Quantity: 67, Price: 28.0
+2024-12-13 04:13:09,039 - Adding 2 products.
+2024-12-13 04:13:09,973 - Added product: Karissa V-Neck Tee, Size: L, Color: Yellow, Quantity: 81, Price: 32.0
+2024-12-13 04:13:12,485 - Added product: Juliana Short-Sleeve Tee, Size: XS, Color: Yellow, Quantity: 54, Price: 42.0
+2024-12-13 04:13:14,889 - Adding 3 products.
+2024-12-13 04:13:15,861 - Added product: Radiant Tee, Size: XL, Color: Blue, Quantity: 66, Price: 22.0
+2024-12-13 04:13:19,558 - Added product: Minerva LumaTech\u2122 V-Tee, Size: XL, Color: Blue, Quantity: 27, Price: 32.0
+2024-12-13 04:13:22,329 - Added product: Layla Tee, Size: XL, Color: Green, Quantity: 58, Price: 29.0
+2024-12-13 04:13:27,032 - Shopping cart content: [{'name': 'Vulcan Weightlifting Tank', 'src': 'mt06-black1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 67}, {'name': 'Karissa V-Neck Tee', 'src': 'ws10-red1.jpg', 'color': 'Yellow', 'size': 'L', 'qty': 81}, {'name': 'Juliana Short-Sleeve Tee', 'src': 'ws07-black1.jpg', 'color': 'Yellow', 'size': 'XS', 'qty': 54}, {'name': 'Radiant Tee', 'src': 'ws12-orange2.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 66}, {'name': 'Minerva LumaTech\u2122 V-Tee', 'src': 'ws08-blue1.jpg', 'color': 'Blue', 'size': 'XL', 'qty': 27}, {'name': 'Layla Tee', 'src': 'ws04-green1.jpg', 'color': 'Green', 'size': 'XL', 'qty': 58}]
+2024-12-13 04:13:27,033 - Recorded item: ('Karissa V-Neck Tee', 'ws10-yellow1.jpg', 'L', 'Yellow', 81, 32.0) not found in cart properly.
+2024-12-13 04:13:27,033 - Round 38 error
+2024-12-13 04:13:28,188 - Round 39: Using seed 1734034408
+2024-12-13 04:13:28,189 - Adding products 3 times.
+2024-12-13 04:13:29,037 - Adding 3 products.
+2024-12-13 04:13:30,083 - Added product: Hyperion Elements Jacket, Size: L, Color: Red, Quantity: 81, Price: 51.0
+2024-12-13 04:13:32,386 - Added product: Orion Two-Tone Fitted Jacket, Size: XL, Color: Black, Quantity: 88, Price: 72.0
+2024-12-13 04:13:34,933 - Added product: Kenobi Trail Jacket, Size: XS, Color: Purple, Quantity: 19, Price: 47.0
+2024-12-13 04:13:37,282 - Adding 2 products.
+2024-12-13 04:13:38,130 - Added product: Proteus Fitness Jackshirt, Size: L, Color: Blue, Quantity: 15, Price: 45.0
+2024-12-13 04:13:40,816 - Added product: Proteus Fitness Jackshirt, Size: S, Color: Blue, Quantity: 74, Price: 45.0
+2024-12-13 04:13:43,302 - Adding 1 products.
+2024-12-13 04:13:44,258 - Added product: Atomic Endurance Running Tee (Crew-Neck), Size: XL, Color: Red, Quantity: 100, Price: 29.0
+2024-12-13 04:13:48,951 - Shopping cart content: [{'name': 'Hyperion Elements Jacket', 'src': 'mj02-green1.jpg', 'color': 'Red', 'size': 'L', 'qty': 81}, {'name': 'Orion Two-Tone Fitted Jacket', 'src': 'mj07-red1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 88}, {'name': 'Kenobi Trail Jacket', 'src': 'mj04-black1.jpg', 'color': 'Purple', 'size': 'XS', 'qty': 19}, {'name': 'Proteus Fitness Jackshirt', 'src': 'mj12-orange1.jpg', 'color': 'Blue', 'size': 'L', 'qty': 15}, {'name': 'Proteus Fitness Jackshirt', 'src': 'mj12-orange1.jpg', 'color': 'Blue', 'size': 'S', 'qty': 74}, {'name': 'Atomic Endurance Running Tee (Crew-Neck)', 'src': 'ms12-red1.jpg', 'color': 'Red', 'size': 'XL', 'qty': 100}]
+2024-12-13 04:13:48,951 - Recorded item: ('Hyperion Elements Jacket', 'mj02-red1.jpg', 'L', 'Red', 81, 51.0) not found in cart properly.
+2024-12-13 04:13:48,951 - Recorded item: ('Orion Two-Tone Fitted Jacket', 'mj07-black1.jpg', 'XL', 'Black', 88, 72.0) not found in cart properly.
+2024-12-13 04:13:48,951 - Recorded item: ('Kenobi Trail Jacket', 'mj04-purple1.jpg', 'XS', 'Purple', 19, 47.0) not found in cart properly.
+2024-12-13 04:13:48,951 - Recorded item: ('Proteus Fitness Jackshirt', 'mj12-blue1.jpg', 'S', 'Blue', 74, 45.0) not found in cart properly.
+2024-12-13 04:13:48,951 - Round 39 error
+2024-12-13 04:13:50,382 - Round 40: Using seed 1734034430
+2024-12-13 04:13:50,382 - Adding products 1 times.
+2024-12-13 04:13:51,228 - Adding 2 products.
+2024-12-13 04:13:52,723 - Added product: Desiree Fitness Tee, Size: S, Color: Black, Quantity: 70, Price: 24.0
+2024-12-13 04:13:54,978 - Added product: Elisa EverCool\u2122 Tee, Size: XL, Color: Red, Quantity: 33, Price: 29.0
+2024-12-13 04:13:57,451 - Shopping cart content: [{'name': 'Desiree Fitness Tee', 'src': 'ws05-black1.jpg', 'color': 'Black', 'size': 'S', 'qty': 70}, {'name': 'Elisa EverCool\u2122 Tee', 'src': 'ws06-purple2.jpg', 'color': 'Red', 'size': 'XL', 'qty': 33}]
+2024-12-13 04:13:57,451 - Recorded item: ('Elisa EverCool\u2122 Tee', 'ws06-red1.jpg', 'XL', 'Red', 33, 29.0) not found in cart properly.
+2024-12-13 04:13:57,452 - Round 40 error
+2024-12-13 04:13:58,606 - Round 41: Using seed 1734034438
+2024-12-13 04:13:58,607 - Adding products 1 times.
+2024-12-13 04:13:59,430 - Adding 1 products.
+2024-12-13 04:14:00,355 - Added product: Eos V-Neck Hoodie, Size: XL, Color: Orange, Quantity: 56, Price: 54.0
+2024-12-13 04:14:03,879 - Shopping cart content: [{'name': 'Eos V-Neck Hoodie', 'src': 'wh11-blue1.jpg', 'color': 'Orange', 'size': 'XL', 'qty': 56}]
+2024-12-13 04:14:03,879 - Recorded item: ('Eos V-Neck Hoodie', 'wh11-orange1.jpg', 'XL', 'Orange', 56, 54.0) not found in cart properly.
+2024-12-13 04:14:03,879 - Round 41 error
+2024-12-13 04:14:05,118 - Round 42: Using seed 1734034445
+2024-12-13 04:14:05,118 - Adding products 3 times.
+2024-12-13 04:14:06,960 - Adding 3 products.
+2024-12-13 04:14:08,053 - Added product: Eos V-Neck Hoodie, Size: M, Color: Orange, Quantity: 82, Price: 54.0
+2024-12-13 04:14:10,541 - Added product: Autumn Pullie, Size: L, Color: Red, Quantity: 94, Price: 57.0
+2024-12-13 04:14:13,427 - Added product: Mona Pullover Hoodlie, Size: S, Color: Orange, Quantity: 24, Price: 57.0
+2024-12-13 04:14:15,760 - Adding 3 products.
+2024-12-13 04:14:16,623 - Added product: Phoebe Zipper Sweatshirt, Size: XS, Color: Gray, Quantity: 2, Price: 59.0
+2024-12-13 04:14:19,213 - Added product: Helena Hooded Fleece, Size: S, Color: Yellow, Quantity: 88, Price: 55.0
+2024-12-13 04:14:22,110 - Added product: Cassia Funnel Sweatshirt, Size: L, Color: White, Quantity: 20, Price: 48.0
+2024-12-13 04:14:24,869 - Adding 1 products.
+2024-12-13 04:14:25,811 - Added product: Primo Endurance Tank, Size: XS, Color: Red, Quantity: 6, Price: 29.0
+2024-12-13 04:14:30,680 - Shopping cart content: [{'name': 'Eos V-Neck Hoodie', 'src': 'wh11-blue1.jpg', 'color': 'Orange', 'size': 'M', 'qty': 82}, {'name': 'Autumn Pullie', 'src': 'wh03-red1.jpg', 'color': 'Red', 'size': 'L', 'qty': 94}, {'name': 'Mona Pullover Hoodlie', 'src': 'wh01-green1.jpg', 'color': 'Orange', 'size': 'S', 'qty': 24}, {'name': 'Phoebe Zipper Sweatshirt', 'src': 'wh07-gray1.jpg', 'color': 'Gray', 'size': 'XS', 'qty': 2}, {'name': 'Helena Hooded Fleece', 'src': 'wh10-gray1.jpg', 'color': 'Yellow', 'size': 'S', 'qty': 88}, {'name': 'Cassia Funnel Sweatshirt', 'src': 'wh08-white1.jpg', 'color': 'White', 'size': 'L', 'qty': 20}, {'name': 'Primo Endurance Tank', 'src': 'mt03-red1.jpg', 'color': 'Red', 'size': 'XS', 'qty': 6}]
+2024-12-13 04:14:30,680 - Recorded item: ('Eos V-Neck Hoodie', 'wh11-orange1.jpg', 'M', 'Orange', 82, 54.0) not found in cart properly.
+2024-12-13 04:14:30,680 - Round 42 error
+2024-12-13 04:14:31,824 - Round 43: Using seed 1734034471
+2024-12-13 04:14:31,824 - Adding products 1 times.
+2024-12-13 04:14:32,645 - Adding 1 products.
+2024-12-13 04:14:33,649 - Added product: Nona Fitness Tank, Size: L, Color: Blue, Quantity: 45, Price: 39.0
+2024-12-13 04:14:37,072 - Shopping cart content: [{'name': 'Nona Fitness Tank', 'src': 'wt04-blue1.jpg', 'color': 'Blue', 'size': 'L', 'qty': 45}]
+2024-12-13 04:14:37,072 - Round 43 success, total covered 76 boundary value
+2024-12-13 04:14:38,222 - Round 44: Using seed 1734034478
+2024-12-13 04:14:38,222 - Adding products 3 times.
+2024-12-13 04:14:39,058 - Adding 3 products.
+2024-12-13 04:14:40,160 - Added product: Primo Endurance Tank, Size: XL, Color: Yellow, Quantity: 14, Price: 29.0
+2024-12-13 04:14:43,829 - Added product: Helios Endurance Tank, Size: L, Color: Blue, Quantity: 18, Price: 32.0
+2024-12-13 04:14:46,438 - Added product: Vulcan Weightlifting Tank, Size: XS, Color: Black, Quantity: 97, Price: 28.0
+2024-12-13 04:14:48,661 - Adding 2 products.
+2024-12-13 04:14:50,602 - Added product: Inez Full Zip Jacket, Size: XL, Color: Orange, Quantity: 14, Price: 59.0
+2024-12-13 04:14:53,259 - Added product: Augusta Pullover Jacket, Size: XS, Color: Red, Quantity: 1, Price: 57.0
+2024-12-13 04:14:55,734 - Adding 2 products.
+2024-12-13 04:14:56,616 - Added product: Nona Fitness Tank, Size: XS, Color: Blue, Quantity: 58, Price: 39.0
+2024-12-13 04:14:59,350 - Added product: Nora Practice Tank, Size: XS, Color: Purple, Quantity: 49, Price: 39.0
+2024-12-13 04:15:04,284 - Shopping cart content: [{'name': 'Primo Endurance Tank', 'src': 'mt03-red1.jpg', 'color': 'Yellow', 'size': 'XL', 'qty': 14}, {'name': 'Helios Endurance Tank', 'src': 'mt04-blue1.jpg', 'color': 'Blue', 'size': 'L', 'qty': 18}, {'name': 'Inez Full Zip Jacket', 'src': 'wj07-purple1.jpg', 'color': 'Orange', 'size': 'XL', 'qty': 14}, {'name': 'Augusta Pullover Jacket', 'src': 'wj03-red2.jpg', 'color': 'Red', 'size': 'XS', 'qty': 1}, {'name': 'Nona Fitness Tank', 'src': 'wt04-blue1.jpg', 'color': 'Blue', 'size': 'XS', 'qty': 58}, {'name': 'Nora Practice Tank', 'src': 'wt03-red1.jpg', 'color': 'Purple', 'size': 'XS', 'qty': 49}]
+2024-12-13 04:15:04,284 - Recorded item: ('Primo Endurance Tank', 'mt03-yellow1.jpg', 'XL', 'Yellow', 14, 29.0) not found in cart properly.
+2024-12-13 04:15:04,284 - Recorded item: ('Vulcan Weightlifting Tank', 'mt06-black1.jpg', 'XS', 'Black', 97, 28.0) not found in cart properly.
+2024-12-13 04:15:04,285 - Recorded item: ('Augusta Pullover Jacket', 'wj03-red1.jpg', 'XS', 'Red', 1, 57.0) not found in cart properly.
+2024-12-13 04:15:04,285 - Recorded item: ('Nora Practice Tank', 'wt03-purple1.jpg', 'XS', 'Purple', 49, 39.0) not found in cart properly.
+2024-12-13 04:15:04,285 - Round 44 error
+2024-12-13 04:15:06,289 - Round 45: Using seed 1734034506
+2024-12-13 04:15:06,289 - Adding products 1 times.
+2024-12-13 04:15:07,118 - Adding 1 products.
+2024-12-13 04:15:08,198 - Added product: Maya Tunic, Size: S, Color: White, Quantity: 4, Price: 29.0
+2024-12-13 04:15:11,566 - Shopping cart content: [{'name': 'Maya Tunic', 'src': 'wt07-green1.jpg', 'color': 'White', 'size': 'S', 'qty': 4}]
+2024-12-13 04:15:11,566 - Round 45 success, total covered 82 boundary value
+2024-12-13 04:15:12,714 - Round 46: Using seed 1734034512
+2024-12-13 04:15:12,714 - Adding products 1 times.
+2024-12-13 04:15:13,603 - Adding 2 products.
+2024-12-13 04:15:15,082 - Added product: Breathe-Easy Tank, Size: XL, Color: White, Quantity: 44, Price: 34.0
+2024-12-13 04:15:17,330 - Added product: Zoe Tank, Size: L, Color: Green, Quantity: 29, Price: 29.0
+2024-12-13 04:15:21,079 - Shopping cart content: [{'name': 'Breathe-Easy Tank', 'src': 'wt09-white1.jpg', 'color': 'White', 'size': 'XL', 'qty': 44}, {'name': 'Zoe Tank', 'src': 'wt02-orange1.jpg', 'color': 'Green', 'size': 'L', 'qty': 29}]
+2024-12-13 04:15:21,079 - Recorded item: ('Zoe Tank', 'wt02-green1.jpg', 'L', 'Green', 29, 29.0) not found in cart properly.
+2024-12-13 04:15:21,079 - Round 46 error
+2024-12-13 04:15:22,218 - Round 47: Using seed 1734034522
+2024-12-13 04:15:22,219 - Adding products 1 times.
+2024-12-13 04:15:23,043 - Adding 1 products.
+2024-12-13 04:15:24,061 - Added product: Daphne Full-Zip Hoodie, Size: M, Color: Purple, Quantity: 74, Price: 59.0
+2024-12-13 04:15:27,498 - Shopping cart content: [{'name': 'Daphne Full-Zip Hoodie', 'src': 'wh06-purple1.jpg', 'color': 'Purple', 'size': 'M', 'qty': 74}]
+2024-12-13 04:15:27,498 - Round 47 success, total covered 84 boundary value
+2024-12-13 04:15:28,693 - Round 48: Using seed 1734034528
+2024-12-13 04:15:28,693 - Adding products 3 times.
+2024-12-13 04:15:29,522 - Adding 3 products.
+2024-12-13 04:15:30,621 - Added product: Circe Hooded Ice Fleece, Size: S, Color: Purple, Quantity: 75, Price: 68.0
+2024-12-13 04:15:32,746 - Added product: Mona Pullover Hoodlie, Size: S, Color: Green, Quantity: 63, Price: 57.0
+2024-12-13 04:15:35,219 - Added product: Selene Yoga Hoodie, Size: XL, Color: Purple, Quantity: 70, Price: 42.0
+2024-12-13 04:15:37,594 - Adding 2 products.
+2024-12-13 04:15:38,511 - Added product: Argus All-Weather Tank, Size: M, Color: Gray, Quantity: 34, Price: 22.0
+2024-12-13 04:15:41,239 - Added product: Sparta Gym Tank, Size: XL, Color: Green, Quantity: 68, Price: 29.0
+2024-12-13 04:15:43,909 - Adding 2 products.
+2024-12-13 04:15:44,779 - Added product: Orion Two-Tone Fitted Jacket, Size: XL, Color: Black, Quantity: 43, Price: 72.0
+2024-12-13 04:15:47,681 - Added product: Kenobi Trail Jacket, Size: M, Color: Purple, Quantity: 46, Price: 47.0
+2024-12-13 04:15:52,676 - Shopping cart content: [{'name': 'Circe Hooded Ice Fleece', 'src': 'wh12-gray1.jpg', 'color': 'Purple', 'size': 'S', 'qty': 75}, {'name': 'Mona Pullover Hoodlie', 'src': 'wh01-green1.jpg', 'color': 'Green', 'size': 'S', 'qty': 63}, {'name': 'Selene Yoga Hoodie', 'src': 'wh05-white1.jpg', 'color': 'Purple', 'size': 'XL', 'qty': 70}, {'name': 'Argus All-Weather Tank', 'src': 'mt07-gray1.jpg', 'color': 'Gray', 'size': 'M', 'qty': 34}, {'name': 'Sparta Gym Tank', 'src': 'mt08-green1.jpg', 'color': 'Green', 'size': 'XL', 'qty': 68}, {'name': 'Orion Two-Tone Fitted Jacket', 'src': 'mj07-red1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 43}, {'name': 'Kenobi Trail Jacket', 'src': 'mj04-black1.jpg', 'color': 'Purple', 'size': 'M', 'qty': 46}]
+2024-12-13 04:15:52,676 - Recorded item: ('Selene Yoga Hoodie', 'wh05-purple1.jpg', 'XL', 'Purple', 70, 42.0) not found in cart properly.
+2024-12-13 04:15:52,676 - Recorded item: ('Orion Two-Tone Fitted Jacket', 'mj07-black1.jpg', 'XL', 'Black', 43, 72.0) not found in cart properly.
+2024-12-13 04:15:52,677 - Recorded item: ('Kenobi Trail Jacket', 'mj04-purple1.jpg', 'M', 'Purple', 46, 47.0) not found in cart properly.
+2024-12-13 04:15:52,677 - Round 48 error
+2024-12-13 04:15:53,867 - Round 49: Using seed 1734034553
+2024-12-13 04:15:53,867 - Adding products 1 times.
+2024-12-13 04:15:54,746 - Adding 1 products.
+2024-12-13 04:15:56,558 - Added product: Ariel Roll Sleeve Sweatshirt, Size: XL, Color: Purple, Quantity: 43, Price: 39.0
+2024-12-13 04:16:00,046 - Shopping cart content: [{'name': 'Ariel Roll Sleeve Sweatshirt', 'src': 'wh09-purple1.jpg', 'color': 'Purple', 'size': 'XL', 'qty': 43}]
+2024-12-13 04:16:00,046 - Round 49 success, total covered 87 boundary value
+2024-12-13 04:16:01,255 - Round 50: Using seed 1734034561
+2024-12-13 04:16:01,255 - Adding products 2 times.
+2024-12-13 04:16:02,097 - Adding 2 products.
+2024-12-13 04:16:03,114 - Added product: Typhon Performance Fleece-lined Jacket, Size: M, Color: Green, Quantity: 17, Price: 60.0
+2024-12-13 04:16:05,645 - Added product: Proteus Fitness Jackshirt, Size: XL, Color: Black, Quantity: 73, Price: 45.0
+2024-12-13 04:16:06,934 - Adding 3 products.
+2024-12-13 04:16:07,831 - Added product: Atomic Endurance Running Tee (Crew-Neck), Size: M, Color: Red, Quantity: 5, Price: 29.0
+2024-12-13 04:16:10,383 - Added product: Balboa Persistence Tee, Size: XL, Color: Green, Quantity: 11, Price: 29.0
+2024-12-13 04:16:13,109 - Added product: Aero Daily Fitness Tee, Size: L, Color: Yellow, Quantity: 61, Price: 24.0
+2024-12-13 04:16:17,693 - Shopping cart content: [{'name': 'Typhon Performance Fleece-lined Jacket', 'src': 'mj11-black1.jpg', 'color': 'Green', 'size': 'M', 'qty': 17}, {'name': 'Proteus Fitness Jackshirt', 'src': 'mj12-orange1.jpg', 'color': 'Black', 'size': 'XL', 'qty': 73}, {'name': 'Atomic Endurance Running Tee (Crew-Neck)', 'src': 'ms12-red1.jpg', 'color': 'Red', 'size': 'M', 'qty': 5}, {'name': 'Balboa Persistence Tee', 'src': 'ms03-black1.jpg', 'color': 'Green', 'size': 'XL', 'qty': 11}, {'name': 'Aero Daily Fitness Tee', 'src': 'ms01-blue1.jpg', 'color': 'Yellow', 'size': 'L', 'qty': 61}]
+2024-12-13 04:16:17,693 - Recorded item: ('Proteus Fitness Jackshirt', 'mj12-black1.jpg', 'XL', 'Black', 73, 45.0) not found in cart properly.
+2024-12-13 04:16:17,694 - Recorded item: ('Aero Daily Fitness Tee', 'ms01-yellow2.jpg', 'L', 'Yellow', 61, 24.0) not found in cart properly.
+2024-12-13 04:16:17,694 - Round 50 error
